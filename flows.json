@@ -36,12 +36,13 @@
             "4b8dd44dd5fbfa6f",
             "90897643613109c5",
             "04ce983a99fc32bb",
-            "1bae0b8d75e4851b"
+            "1bae0b8d75e4851b",
+            "686d97837a91cf6e"
         ],
         "x": 34,
-        "y": 179,
+        "y": 199,
         "w": 1492,
-        "h": 242
+        "h": 222
     },
     {
         "id": "b02ac0a1344e59dd",
@@ -104,12 +105,26 @@
             "f92bc4861d7692ac",
             "100a99cfeddc5c28",
             "201b900ec5c83c70",
-            "1f0c32b24e6d82b3"
+            "d7b48996c9b734b9",
+            "bdcdc4b67e9734b1",
+            "1676bf9cd6156e83",
+            "d2b7a480bb6987ab",
+            "c33fee2e9e839fd3",
+            "e9724563654bb410",
+            "d8f7026c37711f16",
+            "4427eff75bb11aeb",
+            "997496abd32aba51",
+            "3c42bc57f6911107",
+            "5d70a7413a4903a5",
+            "c21beb81e5422049",
+            "15890395f32e7671",
+            "278fdaa88c84e541",
+            "bf1a27819589117b"
         ],
         "x": 34,
         "y": 439,
         "w": 932,
-        "h": 502
+        "h": 682
     },
     {
         "id": "664f1e7115a34974",
@@ -238,7 +253,7 @@
         "z": "7a7661f89d2855d9",
         "g": "b02ac0a1344e59dd",
         "name": "ENV",
-        "func": "if(msg.payload.length > 0){\n    const fromDB = msg.payload[0]\n\n    let process_env = {\n        BOT_NAME: fromDB.bot_name,\n        BOT_TOKEN: fromDB.bot_token,\n\n        OPENAI_API: fromDB.openai_api,\n        OPENAI_ORG: fromDB.openai_org,\n\n        WELCOME_MSG: fromDB.welcome_msg\n    }\n\n    global.set(\"process_env\", process_env)\n    return msg;\n}\n\n/*\nBOT_NAME: 'CustomerSupportChatGPTBot',\nBOT_TOKEN: '6289221273:AAHDRRPbDrLeOED9JUpfYQmke2c5aAO2aIY',\n\nOPENAI_API: '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',\nOPENAI_ORG: 'org-oAheGfbQDOLu8EWmk3v5Bzd3',\n*/",
+        "func": "if(msg.payload.length > 0){\n    const fromDB = msg.payload[0]\n\n    let process_env = {\n        BOT_NAME: fromDB.bot_name,\n        BOT_TOKEN: fromDB.bot_token,\n\n        OPENAI_API: fromDB.openai_api,\n\n        WELCOME_MSG: fromDB.welcome_msg\n    }\n\n    global.set(\"process_env\", process_env)\n    return msg;\n}\n\n/*\nBOT_NAME: 'CustomerSupportChatGPTBot',\nBOT_TOKEN: '6289221273:AAHDRRPbDrLeOED9JUpfYQmke2c5aAO2aIY',\n\nOPENAI_API: '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',\nOPENAI_ORG: 'org-oAheGfbQDOLu8EWmk3v5Bzd3',\n*/",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -277,7 +292,7 @@
         "z": "7a7661f89d2855d9",
         "g": "121cbaa6951ffc3d",
         "name": "check command",
-        "func": "if(msg.payload.content ==='/start'){\n    return[msg, null, null]\n} else if (msg.payload.content === '/UBOS' || msg.payload.content == '/UBOS_TECH' || msg.payload.content == '/Store') {\n    return [null, msg, null]\n}\nelse{\n    return[null, null, msg]\n}",
+        "func": "if(msg.payload.content ==='/start'){\n    return[msg, null, null]\n} else if (msg.payload.content.charAt(0) === '/' && msg.payload.content !== '/start') {\n    msg.collection = 'customSupportChatBases'\n    msg.fromTG = msg.payload\n    msg.payload={}\n    return [null, msg, null]\n}\nelse{\n    return[null, null, msg]\n}",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
@@ -290,7 +305,8 @@
                 "283475e4b8064cd5"
             ],
             [
-                "4b8dd44dd5fbfa6f"
+                "686d97837a91cf6e",
+                "1bae0b8d75e4851b"
             ],
             [
                 "3930edf2b8ee484d"
@@ -521,13 +537,13 @@
         "z": "7a7661f89d2855d9",
         "g": "121cbaa6951ffc3d",
         "name": "/base",
-        "func": "let chatId = 1679557870280\nlet base = \"\"\nswitch (msg.payload.content) {\n    case '/UBOS':\n        chatId = 1679557870280\n        base = \"with UBOS team\"\n        break;\n    case '/UBOS_TECH':\n        chatId = 1679557878963\n        base = \"with UBOS company\"\n        break;\n    case '/Store':\n        chatId = 1679580314045\n        base = \"with Made with bravely\"\n        break\n}\nglobal.set('chatId', chatId)\nglobal.set('history', [{ \"role\": \"assistant\", \"content\": `How I can help you ${base}?`}])\n\nmsg.payload.content = `How I can help you?`\nreturn msg",
+        "func": "let chatId = 0\nlet base = \"\"\nlet baseDescription = \"\"\n\nif(msg.payload.length>0){\n    const baseInfo = msg.payload.filter(e => e.label === msg.fromTG.content.replace('/',''))\n    if (baseInfo.length > 0){\n        base = baseInfo[0].label\n        chatId = +baseInfo[0].value\n        baseDescription = baseInfo[0].description\n    } \n}\n\nmsg.payload = msg.fromTG\nglobal.set('chatId', chatId)\nglobal.set('history', [{ \"role\": \"assistant\", \"content\": `How I can help you ${base}? I have a litte information:${baseDescription}`}])\n\nmsg.payload.content = `How I can help you?`\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 550,
         "y": 280,
         "wires": [
             [
@@ -647,8 +663,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 680,
-        "y": 220,
+        "x": 960,
+        "y": 240,
         "wires": []
     },
     {
@@ -797,7 +813,7 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Data was sent!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -829,7 +845,7 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Data was sent!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -921,12 +937,12 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "",
-        "url": "/sendENV",
+        "url": "/sendCredentials",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 780,
+        "x": 160,
+        "y": 820,
         "wires": [
             [
                 "954dcad95a45174f"
@@ -945,8 +961,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 780,
+        "x": 350,
+        "y": 820,
         "wires": [
             [
                 "23c7940c97ab3484",
@@ -960,14 +976,14 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Data was sent!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 760,
+        "y": 800,
         "wires": [
             [
                 "4cd6da742e40414d"
@@ -983,7 +999,7 @@
         "statusCode": "",
         "headers": {},
         "x": 700,
-        "y": 760,
+        "y": 800,
         "wires": []
     },
     {
@@ -994,7 +1010,7 @@
         "name": "",
         "selectedProperty": "_id",
         "x": 510,
-        "y": 800,
+        "y": 840,
         "wires": [
             [
                 "8d3837a0503eedad"
@@ -1014,7 +1030,7 @@
         "multi": false,
         "operation": "store",
         "x": 670,
-        "y": 800,
+        "y": 840,
         "wires": []
     },
     {
@@ -1023,18 +1039,17 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "query",
-        "func": "msg.collection = 'customSupportChatContent'\n\nmsg.payload = [\n    {\n        $lookup: {\n            from: \"customSupportChatContent\",\n            pipeline: [\n                {\n                    $match: {\n                        deleted: false,\n                        chatId: +msg.req.query.chatId,\n                        type: msg.req.query.type\n                    }\n                }\n            ],\n            as: \"customSupportChatContent\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatBases\",\n            pipeline: [\n                {\n                    $project:{\n                        label: 1,\n                        value: 1\n                    }\n                }\n            ],\n            as: \"customSupportChatBases\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatENV\",\n            pipeline: [],\n            as: \"customSupportChatENV\"\n        }\n    },\n\n    { $limit: 1 },\n    {\n        $project: {\n            \"customSupportChatContent\": 1,\n            \"customSupportChatBases\": 1,\n            \"customSupportChatENV\": 1,\n        }\n    }\n]\nreturn msg;",
+        "func": "msg.collection = 'customSupportChatContent'\nlet match = {}\nlet matchBase = {}\n\nif (msg.req.query.chatId){\n    match.chatId= +msg.req.query.chatId\n    matchBase.value = msg.req.query.chatId\n}\n\nmsg.payload = [\n    {\n        $lookup: {\n            from: \"customSupportChatContent\",\n            pipeline: [\n                {\n                    $match: {\n                        ...match,\n                        deleted: false\n                    }\n                }\n            ],\n            as: \"customSupportChatContent\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatBases\",\n            pipeline: [\n                {\n                    $match: {\n                        deleted: false\n                    }\n                },\n                {\n                    $project:{\n                        label: 1,\n                        value: 1\n                    }\n                }\n            ],\n            as: \"customSupportChatBases\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatBases\",\n            pipeline: [{\n                $match: {\n                    ...matchBase,\n                    deleted: false\n                }\n            }],\n            as: \"customSupportChatBasesInfo\"\n        }\n    },\n\n    { $limit: 1 },\n    {\n        $project: {\n            \"customSupportChatContent\": 1,\n            \"customSupportChatBases\": 1,\n            \"customSupportChatBasesInfo\": 1,\n        }\n    }\n]\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
+        "x": 330,
         "y": 680,
         "wires": [
             [
-                "72deefa1084b6e16",
-                "1f0c32b24e6d82b3"
+                "72deefa1084b6e16"
             ]
         ]
     },
@@ -1044,16 +1059,15 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "",
-        "url": "/getInfoFromDB",
+        "url": "/getContent",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
+        "x": 140,
         "y": 680,
         "wires": [
             [
-                "ea5fc952afbd1f80",
-                "1f0c32b24e6d82b3"
+                "ea5fc952afbd1f80"
             ]
         ]
     },
@@ -1080,7 +1094,7 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "return result",
-        "func": "if (msg.payload[0].customSupportChatENV.length == 0) {\n    msg.payload[0].customSupportChatENV = {\n        _id: ''\n    }\n    msg.payload = {\n        content: msg.payload[0].customSupportChatContent,\n        envs: msg.payload[0].customSupportChatENV,\n        bases: msg.payload[0].customSupportChatBases,\n    }\n} else {\n    msg.payload[0].customSupportChatENV = msg.payload[0].customSupportChatENV[0]\n\n    msg.payload = {\n        content: msg.payload[0].customSupportChatContent,\n        envs: msg.payload[0].customSupportChatENV,\n        bases: msg.payload[0].customSupportChatBases,\n    }\n}\n\n\nreturn msg;",
+        "func": "msg.payload = {\n    content: msg.payload[0].customSupportChatContent,\n    baseInfo: msg.payload[0].customSupportChatBasesInfo,\n    bases: msg.payload[0].customSupportChatBases,\n}\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1117,7 +1131,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 860,
+        "y": 880,
         "wires": [
             [
                 "97d6c37541160413"
@@ -1136,8 +1150,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 860,
+        "x": 350,
+        "y": 880,
         "wires": [
             [
                 "f92bc4861d7692ac",
@@ -1151,14 +1165,14 @@
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Data was sent!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 860,
+        "y": 880,
         "wires": [
             [
                 "100a99cfeddc5c28"
@@ -1174,7 +1188,7 @@
         "statusCode": "",
         "headers": {},
         "x": 670,
-        "y": 860,
+        "y": 880,
         "wires": []
     },
     {
@@ -1190,24 +1204,297 @@
         "multi": false,
         "operation": "insert",
         "x": 510,
-        "y": 900,
+        "y": 920,
         "wires": []
     },
     {
-        "id": "1f0c32b24e6d82b3",
-        "type": "debug",
+        "id": "bdcdc4b67e9734b1",
+        "type": "function",
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 500,
-        "y": 720,
+        "name": "query",
+        "func": "msg.collection = 'customSupportChatENV'\nmsg.payload={}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 740,
+        "wires": [
+            [
+                "1676bf9cd6156e83"
+            ]
+        ]
+    },
+    {
+        "id": "d7b48996c9b734b9",
+        "type": "http in",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "url": "/getCredentials",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 740,
+        "wires": [
+            [
+                "bdcdc4b67e9734b1"
+            ]
+        ]
+    },
+    {
+        "id": "1676bf9cd6156e83",
+        "type": "mongodb in",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "operation": "aggregate",
+        "x": 470,
+        "y": 740,
+        "wires": [
+            [
+                "d2b7a480bb6987ab"
+            ]
+        ]
+    },
+    {
+        "id": "d2b7a480bb6987ab",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "return result",
+        "func": "if (msg.payload.length == 0) {\n    msg.payload[0].customSupportChatENV = {\n        _id: ''\n    }\n} else {\n    msg.payload = msg.payload[0]\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 740,
+        "wires": [
+            [
+                "c33fee2e9e839fd3"
+            ]
+        ]
+    },
+    {
+        "id": "c33fee2e9e839fd3",
+        "type": "http response",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "e9724563654bb410",
+        "type": "http in",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "url": "/updateBase",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 960,
+        "wires": [
+            [
+                "d8f7026c37711f16"
+            ]
+        ]
+    },
+    {
+        "id": "d8f7026c37711f16",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "update DB",
+        "func": "msg.collection = 'customSupportChatBases'\nmsg.query ={\n    _id: objectid(msg.payload._id)\n}\ndelete msg.payload._id\nmsg.payload={\n    $set:{\n        ...msg.payload\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 350,
+        "y": 960,
+        "wires": [
+            [
+                "4427eff75bb11aeb",
+                "3c42bc57f6911107"
+            ]
+        ]
+    },
+    {
+        "id": "4427eff75bb11aeb",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "res",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 960,
+        "wires": [
+            [
+                "997496abd32aba51"
+            ]
+        ]
+    },
+    {
+        "id": "997496abd32aba51",
+        "type": "http response",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "3c42bc57f6911107",
+        "type": "mongodb out",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "update",
+        "x": 510,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "686d97837a91cf6e",
+        "type": "mongodb in",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "operation": "find",
+        "x": 475,
+        "y": 280,
+        "wires": [
+            [
+                "4b8dd44dd5fbfa6f",
+                "1bae0b8d75e4851b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5d70a7413a4903a5",
+        "type": "http in",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "url": "/deleteBase",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 1040,
+        "wires": [
+            [
+                "c21beb81e5422049"
+            ]
+        ]
+    },
+    {
+        "id": "c21beb81e5422049",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "update DB",
+        "func": "msg.collection = 'customSupportChatBases'\nmsg.query ={\n    _id: objectid(msg.req.query._id)\n}\n\nmsg.payload={\n    $set:{\n        deleted: true\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 350,
+        "y": 1040,
+        "wires": [
+            [
+                "15890395f32e7671",
+                "bf1a27819589117b"
+            ]
+        ]
+    },
+    {
+        "id": "15890395f32e7671",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "res",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1040,
+        "wires": [
+            [
+                "278fdaa88c84e541"
+            ]
+        ]
+    },
+    {
+        "id": "278fdaa88c84e541",
+        "type": "http response",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "bf1a27819589117b",
+        "type": "mongodb out",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "update",
+        "x": 510,
+        "y": 1080,
         "wires": []
     }
 ]
