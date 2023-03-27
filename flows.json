@@ -103,7 +103,8 @@
             "97d6c37541160413",
             "f92bc4861d7692ac",
             "100a99cfeddc5c28",
-            "201b900ec5c83c70"
+            "201b900ec5c83c70",
+            "1f0c32b24e6d82b3"
         ],
         "x": 34,
         "y": 439,
@@ -134,16 +135,6 @@
         "useselfsignedcertificate": false,
         "sslterminated": false,
         "verboselogging": false
-    },
-    {
-        "id": "2d160ee15669a804",
-        "type": "gauth",
-        "name": "customer-support-chatgpt@my-project-templates-381412.iam.gserviceaccount.com"
-    },
-    {
-        "id": "740c1ded671363bb",
-        "type": "openaiApiKey",
-        "name": ""
     },
     {
         "id": "804b53453d444541",
@@ -1042,7 +1033,8 @@
         "y": 680,
         "wires": [
             [
-                "72deefa1084b6e16"
+                "72deefa1084b6e16",
+                "1f0c32b24e6d82b3"
             ]
         ]
     },
@@ -1060,7 +1052,8 @@
         "y": 680,
         "wires": [
             [
-                "ea5fc952afbd1f80"
+                "ea5fc952afbd1f80",
+                "1f0c32b24e6d82b3"
             ]
         ]
     },
@@ -1198,6 +1191,23 @@
         "operation": "insert",
         "x": 510,
         "y": 900,
+        "wires": []
+    },
+    {
+        "id": "1f0c32b24e6d82b3",
+        "type": "debug",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 720,
         "wires": []
     }
 ]
