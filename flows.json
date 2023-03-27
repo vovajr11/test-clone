@@ -8,12 +8,61 @@
         "env": []
     },
     {
-        "id": "99a8aaa6537c5607",
-        "type": "tab",
-        "label": "ChatGPT",
-        "disabled": false,
-        "info": "",
-        "env": []
+        "id": "121cbaa6951ffc3d",
+        "type": "group",
+        "z": "7a7661f89d2855d9",
+        "name": "ChatBot",
+        "style": {
+            "label": true,
+            "stroke": "#6f2fa0"
+        },
+        "nodes": [
+            "33fd8bf464b4aad7",
+            "c153bc331a7cf580",
+            "3930edf2b8ee484d",
+            "efd534ca1b8fa227",
+            "e9fa4200a1aa480e",
+            "fe2f71737fa01418",
+            "283475e4b8064cd5",
+            "9264dd2aaeba9ce7",
+            "e206160bc20d899c",
+            "f7a57ddf2274950b",
+            "46877e058684d472",
+            "e8c1d2a1916f58c8",
+            "0728b1c7f3f129eb",
+            "b9ebcab7887ccc9a",
+            "fa2f30655ba38c86",
+            "6ae463f0e97af5e5",
+            "4b8dd44dd5fbfa6f",
+            "90897643613109c5",
+            "04ce983a99fc32bb",
+            "1bae0b8d75e4851b"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 1492,
+        "h": 242
+    },
+    {
+        "id": "b02ac0a1344e59dd",
+        "type": "group",
+        "z": "7a7661f89d2855d9",
+        "name": "Global",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "55c2b19dd84bc194",
+            "1431a998f281f173",
+            "c843733990e6483c",
+            "4a2a22fc258ee39c",
+            "bbff8f9f236db4d0"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 652,
+        "h": 122
     },
     {
         "id": "88b6a5d9eef06a2f",
@@ -35,99 +84,32 @@
             "982395a83912b16e",
             "211a3df24ef3a95f",
             "2f8eeac7ef0890d0",
-            "8c0e89441f4ed622",
             "d509aaed97f4f52b",
             "0dbc45f6c3d8c93e",
-            "b75670c2b0f9fe41",
-            "f036cbe8da63de1e",
-            "0f22b0ef2b41bbf7",
-            "34b809a4ac6483e1",
             "a9c5b85d5e8e1b81",
             "d4bc55761c1ad0d5",
-            "b8db10544fd757cc",
-            "aa5cb53a87ae7c20"
+            "54914abb2852c2c1",
+            "954dcad95a45174f",
+            "4cb26473f0e563f2",
+            "4cd6da742e40414d",
+            "23c7940c97ab3484",
+            "8d3837a0503eedad",
+            "ea5fc952afbd1f80",
+            "c3e86306bbe3e1e2",
+            "72deefa1084b6e16",
+            "a3c9fb1554c155a7",
+            "990f41175174623e",
+            "5f789ff4965461ec",
+            "2d302f1d64912215",
+            "97d6c37541160413",
+            "f92bc4861d7692ac",
+            "100a99cfeddc5c28",
+            "201b900ec5c83c70"
         ],
         "x": 34,
-        "y": 79,
-        "w": 972,
-        "h": 342
-    },
-    {
-        "id": "983293d097a965bf",
-        "type": "group",
-        "z": "7a7661f89d2855d9",
-        "name": "texts",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "195a7855b0c7880d",
-            "c317824fdf1301b0",
-            "9f3ba05a2d365219",
-            "8656182be3ff05fe",
-            "6419d659a3ca5d41",
-            "cb256198cb3988d4",
-            "d3e897d87fdc1622",
-            "954dfe3b66b6b50b",
-            "0392df423cd374c2",
-            "0765a977ebef2d6d",
-            "7dc8cb54725119a0",
-            "4573238550d9824a",
-            "8ccd33511e478fbb",
-            "182e3f7e1164e3a8",
-            "10a874ab98113154",
-            "fa0d65dd59f44a6f",
-            "60b6d0aeefd88a2c",
-            "43250c522cd8d297"
-        ],
-        "x": 34,
-        "y": 819,
-        "w": 992,
-        "h": 362
-    },
-    {
-        "id": "121cbaa6951ffc3d",
-        "type": "group",
-        "z": "7a7661f89d2855d9",
-        "name": "ChatBot",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "33fd8bf464b4aad7",
-            "c153bc331a7cf580",
-            "3930edf2b8ee484d",
-            "372ff90817a7f004",
-            "efd534ca1b8fa227",
-            "e9fa4200a1aa480e",
-            "fe2f71737fa01418",
-            "283475e4b8064cd5",
-            "9264dd2aaeba9ce7",
-            "e206160bc20d899c",
-            "f7a57ddf2274950b",
-            "46877e058684d472",
-            "e8c1d2a1916f58c8",
-            "0728b1c7f3f129eb",
-            "b9ebcab7887ccc9a",
-            "fa2f30655ba38c86",
-            "6ae463f0e97af5e5"
-        ],
-        "x": 44,
-        "y": 479,
-        "w": 1412,
-        "h": 202
-    },
-    {
-        "id": "cf8441cceeb9d2e6",
-        "type": "junction",
-        "z": "99a8aaa6537c5607",
-        "x": 680,
-        "y": 520,
-        "wires": [
-            [
-                "b6e05a45d6937c30"
-            ]
-        ]
+        "y": 439,
+        "w": 932,
+        "h": 502
     },
     {
         "id": "664f1e7115a34974",
@@ -184,7 +166,7 @@
         "saveDataDir": "",
         "filterCommands": false,
         "x": 150,
-        "y": 560,
+        "y": 280,
         "wires": [
             [
                 "e9fa4200a1aa480e"
@@ -203,8 +185,8 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 1350,
-        "y": 600,
+        "x": 1410,
+        "y": 340,
         "wires": [
             []
         ]
@@ -215,14 +197,14 @@
         "z": "7a7661f89d2855d9",
         "g": "121cbaa6951ffc3d",
         "name": "free",
-        "func": "msg.url = 'https://carlos-629f15f0dfb63f130000010f.ubos.tech/questionExternal';\n\nmsg.fromTG = msg.payload\n\nconst chatId = 1679557870280\nconst messageId = +(chatId.toString().substr(-3))\n//1679557870280 \ndelete msg.originalMessage\nmsg.payload = {\n    \"chatId\": chatId,\n    \"messageId\": messageId,\n    \"type\": \"message\",\n    \"content\": msg.payload.content,\n    \"date\": Date.now(),\n    \"originalMessage\": {\n        \"message_id\": messageId,\n        \"from\": {\n            \"id\": \"lib_id\",\n            \"is_bot\": false,\n            \"username\": \"admin_panel\",\n            \"language_code\": \"en\"\n        },\n        \"chat\": {\n            \"id\": chatId,\n            \"title\": \"Hermeticism\",\n            \"type\": \"group\",\n            \"all_members_are_administrators\": true\n        },\n        \"date\": 0,\n        \"text\": msg.payload.content,\n        \"entities\": [\n            {\n                \"offset\": 0,\n                \"length\": 48,\n                \"type\": \"url\"\n            }\n        ]\n    }\n}\n\n\nreturn msg;",
+        "func": "msg.url = 'https://carlos-629f15f0dfb63f130000010f.ubos.tech/questionExternal';\nmsg.fromTG = msg.payload\n\nconst chatId = global.get('chatId')\nconst messageId = +(chatId.toString().substr(-3))\n\nmsg.payload = {\n    \"chatId\": chatId,\n    \"messageId\": messageId,\n    \"type\": \"message\",\n    \"content\": msg.payload.content,\n    \"date\": Date.now(),\n    \"originalMessage\": {\n        \"message_id\": messageId,\n        \"from\": {\n            \"id\": \"lib_id\",\n            \"is_bot\": false,\n            \"username\": \"admin_panel\",\n            \"language_code\": \"en\"\n        },\n        \"chat\": {\n            \"id\": chatId,\n            \"title\": \"Hermeticism\",\n            \"type\": \"group\",\n            \"all_members_are_administrators\": true\n        },\n        \"date\": 0,\n        \"text\": msg.payload.content,\n        \"entities\": [\n            {\n                \"offset\": 0,\n                \"length\": 48,\n                \"type\": \"url\"\n            }\n        ]\n    }\n}\n\ndelete msg.originalMessage\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 580,
+        "y": 320,
         "wires": [
             [
                 "e206160bc20d899c",
@@ -231,57 +213,10 @@
         ]
     },
     {
-        "id": "195a7855b0c7880d",
-        "type": "inject",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 980,
-        "wires": [
-            [
-                "8656182be3ff05fe"
-            ]
-        ]
-    },
-    {
-        "id": "c317824fdf1301b0",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 920,
-        "y": 980,
-        "wires": []
-    },
-    {
         "id": "55c2b19dd84bc194",
         "type": "inject",
         "z": "7a7661f89d2855d9",
+        "g": "b02ac0a1344e59dd",
         "name": "",
         "props": [
             {
@@ -299,11 +234,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 40,
+        "x": 150,
+        "y": 120,
         "wires": [
             [
-                "1431a998f281f173"
+                "4a2a22fc258ee39c"
             ]
         ]
     },
@@ -311,147 +246,18 @@
         "id": "1431a998f281f173",
         "type": "function",
         "z": "7a7661f89d2855d9",
+        "g": "b02ac0a1344e59dd",
         "name": "ENV",
-        "func": "let process_env = {\n    BOT_NAME: 'CustomerSupportChatGPTBot',\n    BOT_TOKEN: '6289221273:AAHDRRPbDrLeOED9JUpfYQmke2c5aAO2aIY',\n\n    AIRTABLE_BaseID: 'appXHWHt1SDrUjvyT',\n    AIRTABLE_API_KEY: 'keyvQzBS5YXmm0v3Q',\n    AIRTABLE_TABLE_NAME: 'CustomerSupportChatGPT'\n}\n\nglobal.set(\"process_env\", process_env)\n\nreturn msg;",
+        "func": "if(msg.payload.length > 0){\n    const fromDB = msg.payload[0]\n\n    let process_env = {\n        BOT_NAME: fromDB.bot_name,\n        BOT_TOKEN: fromDB.bot_token,\n\n        OPENAI_API: fromDB.openai_api,\n        OPENAI_ORG: fromDB.openai_org,\n\n        WELCOME_MSG: fromDB.welcome_msg\n    }\n\n    global.set(\"process_env\", process_env)\n    return msg;\n}\n\n/*\nBOT_NAME: 'CustomerSupportChatGPTBot',\nBOT_TOKEN: '6289221273:AAHDRRPbDrLeOED9JUpfYQmke2c5aAO2aIY',\n\nOPENAI_API: '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',\nOPENAI_ORG: 'org-oAheGfbQDOLu8EWmk3v5Bzd3',\n*/",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
-        "y": 40,
+        "x": 610,
+        "y": 100,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "9f3ba05a2d365219",
-        "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 470,
-        "y": 980,
-        "wires": [
-            [
-                "0765a977ebef2d6d",
-                "c317824fdf1301b0"
-            ]
-        ]
-    },
-    {
-        "id": "8656182be3ff05fe",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "function 3",
-        "func": "msg.url = `https://api.airtable.com/v0/${global.get('process_env').AIRTABLE_BaseID}/${global.get('process_env').AIRTABLE_TABLE_NAME}?api_key=${global.get('process_env').AIRTABLE_API_KEY}`\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 980,
-        "wires": [
-            [
-                "9f3ba05a2d365219"
-            ]
-        ]
-    },
-    {
-        "id": "6419d659a3ca5d41",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "function 4",
-        "func": "msg.payload ={\n    chatId: 1679557870280\n} \n\nnode.warn(+msg.payload.chatId.toString().substr(-3))\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 920,
-        "wires": [
-            [
-                "d3e897d87fdc1622"
-            ]
-        ]
-    },
-    {
-        "id": "cb256198cb3988d4",
-        "type": "inject",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 920,
-        "wires": [
-            [
-                "6419d659a3ca5d41"
-            ]
-        ]
-    },
-    {
-        "id": "d3e897d87fdc1622",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 640,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "372ff90817a7f004",
-        "type": "chatgpt",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "",
-        "API_KEY": "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",
-        "Organization": "org-oAheGfbQDOLu8EWmk3v5Bzd3",
-        "x": 940,
-        "y": 600,
-        "wires": [
-            [
-                "efd534ca1b8fa227"
-            ]
         ]
     },
     {
@@ -460,14 +266,14 @@
         "z": "7a7661f89d2855d9",
         "g": "121cbaa6951ffc3d",
         "name": "send to user from chat",
-        "func": "msg.payload = {\n    ...msg.fromTG,\n    content: msg.payload,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n    return msg;\n}",
+        "func": "const responseChatGPT = msg.payload.choices[0].message.content\nlet history = global.get('history') || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": responseChatGPT });\n    global.set('history', history);\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 600,
+        "x": 1160,
+        "y": 340,
         "wires": [
             [
                 "c153bc331a7cf580",
@@ -481,17 +287,20 @@
         "z": "7a7661f89d2855d9",
         "g": "121cbaa6951ffc3d",
         "name": "check command",
-        "func": "if(msg.payload.content ==='/start'){\n    return[msg, null]\n}else{\n    return[null, msg]\n}",
-        "outputs": 2,
+        "func": "if(msg.payload.content ==='/start'){\n    return[msg, null, null]\n} else if (msg.payload.content === '/UBOS' || msg.payload.content == '/UBOS_TECH' || msg.payload.content == '/Store') {\n    return [null, msg, null]\n}\nelse{\n    return[null, null, msg]\n}",
+        "outputs": 3,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 540,
+        "y": 280,
         "wires": [
             [
                 "283475e4b8064cd5"
+            ],
+            [
+                "4b8dd44dd5fbfa6f"
             ],
             [
                 "3930edf2b8ee484d"
@@ -507,31 +316,8 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 710,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "954dfe3b66b6b50b",
-        "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "AirTable",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 140,
-        "y": 1060,
+        "x": 750,
+        "y": 260,
         "wires": [
             []
         ]
@@ -542,135 +328,19 @@
         "z": "7a7661f89d2855d9",
         "g": "121cbaa6951ffc3d",
         "name": "/start",
-        "func": "msg.payload.content = `Hi, how I can help you?`\n\n//msg.url = `https://api.airtable.com/v0/${global.get('process_env').AIRTABLE_BaseID}/${global.get('process_env').AIRTABLE_TABLE_NAME}?api_key=${global.get('process_env').AIRTABLE_API_KEY}`\nreturn msg;",
+        "func": "const filterHtmlTags = (text) => {\n    // Remove all HTML tags except for <br> and <br/>\n    const filteredText = text.replace(/<(?!br\\s*\\/?)[^>]+>/gi, '');\n    // Replace <br> and <br/> tags with newline characters\n    return filteredText.replace(/<br\\s*\\/?>/gi, '\\n');\n}\n\n\nmsg.payload.content = filterHtmlTags(global.get('process_env').WELCOME_MSG)\n\nglobal.set('history', [])\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 520,
+        "y": 240,
         "wires": [
             [
-                "fe2f71737fa01418"
+                "fe2f71737fa01418",
+                "1bae0b8d75e4851b"
             ]
-        ]
-    },
-    {
-        "id": "0392df423cd374c2",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "parse response",
-        "func": "const faq = msg.payload.records.map(e => {\n    return {\n        question: e.fields.Question,\n        answer: e.fields.Answer\n    }\n})\nmsg.payload= faq.map(e=> {\n    return e.question + \"  \" + e.answer\n}).join('. ')\n\nnode.warn(msg.payload)\n//msg.topic = 'turbo'\n//msg.payload = `Please, remember this list with objects with questions and answers to them: ${JSON.stringify(faq)}`\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 1060,
-        "wires": [
-            [
-                "8ccd33511e478fbb"
-            ]
-        ]
-    },
-    {
-        "id": "0765a977ebef2d6d",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "function 9",
-        "func": "const faq = msg.payload.records.map(e=>{\n    return {\n        question: e.fields.Question,\n        answer: e.fields.Answer\n    }\n})\n\nmsg.payload = faq\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 700,
-        "y": 960,
-        "wires": [
-            [
-                "c317824fdf1301b0"
-            ]
-        ]
-    },
-    {
-        "id": "7dc8cb54725119a0",
-        "type": "chatgpt",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "",
-        "API_KEY": "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",
-        "Organization": "org-oAheGfbQDOLu8EWmk3v5Bzd3",
-        "x": 860,
-        "y": 1140,
-        "wires": [
-            [
-                "4573238550d9824a"
-            ]
-        ]
-    },
-    {
-        "id": "4573238550d9824a",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "set history",
-        "func": "global.set('history', msg.history)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 850,
-        "y": 1100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8ccd33511e478fbb",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "params to Carlos",
-        "func": "msg.url = 'https://carlos-629f15f0dfb63f130000010f.ubos.tech/insertDataCarlos';\nmsg.payload = { \n    \"chatId\": -789456123, \n    \"messageId\": 777, \n    \"type\": \"message\", \n    \"content\": msg.payload, \n    \"date\": 1679500207 ,\n    \"originalMessage\": {\n        \"message_id\": 111,\n        \"from\": {\n            \"id\": \"lib_id\",\n            \"is_bot\": false,\n            \"username\": \"admin_panel\",\n            \"language_code\": \"en\"\n        },\n        \"chat\": {\n            \"id\": -634988559,\n            \"title\": \"Hermeticism\",\n            \"type\": \"group\",\n            \"all_members_are_administrators\": true\n        },\n        \"date\": 0,\n        \"text\": \"https://en.wikipedia.org/wiki/Judeo-Christian\",\n        \"entities\": [\n            {\n                \"offset\": 0,\n                \"length\": 48,\n                \"type\": \"url\"\n            }\n        ]\n    }\n}\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 470,
-        "y": 1060,
-        "wires": [
-            [
-                "182e3f7e1164e3a8"
-            ]
-        ]
-    },
-    {
-        "id": "182e3f7e1164e3a8",
-        "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://carlos-629f15f0dfb63f130000010f.ubos.tech/insertDataCarlos",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 650,
-        "y": 1060,
-        "wires": [
-            []
         ]
     },
     {
@@ -688,7 +358,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 310,
-        "y": 580,
+        "y": 320,
         "wires": []
     },
     {
@@ -709,7 +379,7 @@
         "senderr": false,
         "headers": [],
         "x": 650,
-        "y": 580,
+        "y": 320,
         "wires": [
             [
                 "46877e058684d472",
@@ -723,19 +393,19 @@
         "z": "7a7661f89d2855d9",
         "g": "121cbaa6951ffc3d",
         "name": "to ChatGPT",
-        "func": "msg.topic = 'completion'\nmsg.history = []\n\nmsg.fromCarlos = msg.payload\nmsg.payload = `Question: ${msg.fromTG.content} \\n Context: ${msg.payload.answers.map(e => e.sentence).join(' ')} \\n Please, give me an answer to my Question.`\n//Formulate the response as an assistant with good view\nglobal.set('sent', false)\nreturn msg;",
+        "func": "///save response from Carlos\nmsg.fromCarlos = msg.payload\n\n//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.payload.answers.map(e => e.sentence).join(' ');\nlet history = global.get('history') || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...history,\n        { \"role\": \"user\", \"content\": `Question: ${msg.fromTG.content} \\n Context: ${content} \\n Please, give me an answer to my Question based on the Context as assistant.` }\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set('history', history);\nglobal.set('sent', false)\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
-        "y": 580,
+        "x": 810,
+        "y": 320,
         "wires": [
             [
                 "e8c1d2a1916f58c8",
-                "372ff90817a7f004",
-                "fa2f30655ba38c86"
+                "fa2f30655ba38c86",
+                "04ce983a99fc32bb"
             ]
         ]
     },
@@ -753,8 +423,242 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 770,
-        "y": 620,
+        "x": 790,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "e8c1d2a1916f58c8",
+        "type": "delay",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "15",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 960,
+        "y": 280,
+        "wires": [
+            [
+                "b9ebcab7887ccc9a"
+            ]
+        ]
+    },
+    {
+        "id": "0728b1c7f3f129eb",
+        "type": "telegram sender",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1410,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9ebcab7887ccc9a",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "send to user from Carlos",
+        "func": "const repsonseCarlos = `${msg.fromCarlos.answers.legth > 0 ? msg.fromCarlos.answers.map(e => e.sentence).join(' ') : \"I'm sorry, but I don't have an answer to this question. Try to paraphrase.\"}`\nlet history = global.get('history') || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: repsonseCarlos,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": repsonseCarlos});\n    global.set('history', history);\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 280,
+        "wires": [
+            [
+                "0728b1c7f3f129eb",
+                "90897643613109c5"
+            ]
+        ]
+    },
+    {
+        "id": "fa2f30655ba38c86",
+        "type": "debug",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "to gpt",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "6ae463f0e97af5e5",
+        "type": "debug",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "from chatGPT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4b8dd44dd5fbfa6f",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "/base",
+        "func": "let chatId = 1679557870280\nlet base = \"\"\nswitch (msg.payload.content) {\n    case '/UBOS':\n        chatId = 1679557870280\n        base = \"with UBOS team\"\n        break;\n    case '/UBOS_TECH':\n        chatId = 1679557878963\n        base = \"with UBOS company\"\n        break;\n    case '/Store':\n        chatId = 1679580314045\n        base = \"with Made with bravely\"\n        break\n}\nglobal.set('chatId', chatId)\nglobal.set('history', [{ \"role\": \"assistant\", \"content\": `How I can help you ${base}?`}])\n\nmsg.payload.content = `How I can help you?`\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 280,
+        "wires": [
+            [
+                "fe2f71737fa01418"
+            ]
+        ]
+    },
+    {
+        "id": "90897643613109c5",
+        "type": "debug",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "from Carlos",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "04ce983a99fc32bb",
+        "type": "http request",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "ChatGPT",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 960,
+        "y": 340,
+        "wires": [
+            [
+                "efd534ca1b8fa227"
+            ]
+        ]
+    },
+    {
+        "id": "c843733990e6483c",
+        "type": "complete",
+        "z": "7a7661f89d2855d9",
+        "g": "b02ac0a1344e59dd",
+        "name": "",
+        "scope": [
+            "4cd6da742e40414d"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "4a2a22fc258ee39c"
+            ]
+        ]
+    },
+    {
+        "id": "4a2a22fc258ee39c",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "b02ac0a1344e59dd",
+        "name": "getENVs",
+        "func": "msg.collection = 'customSupportChatENV'\nmsg.payload={\n\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 100,
+        "wires": [
+            [
+                "bbff8f9f236db4d0"
+            ]
+        ]
+    },
+    {
+        "id": "bbff8f9f236db4d0",
+        "type": "mongodb in",
+        "z": "7a7661f89d2855d9",
+        "g": "b02ac0a1344e59dd",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "operation": "find",
+        "x": 490,
+        "y": 100,
+        "wires": [
+            [
+                "1431a998f281f173"
+            ]
+        ]
+    },
+    {
+        "id": "1bae0b8d75e4851b",
+        "type": "debug",
+        "z": "7a7661f89d2855d9",
+        "g": "121cbaa6951ffc3d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 220,
         "wires": []
     },
     {
@@ -770,12 +674,11 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 160,
+        "y": 480,
         "wires": [
             [
-                "b8db10544fd757cc",
-                "982395a83912b16e",
-                "a9c5b85d5e8e1b81"
+                "a9c5b85d5e8e1b81",
+                "44b072232cdffd6d"
             ]
         ]
     },
@@ -796,12 +699,11 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 570,
-        "y": 120,
+        "x": 590,
+        "y": 480,
         "wires": [
             [
-                "982395a83912b16e",
-                "b8db10544fd757cc"
+                "982395a83912b16e"
             ]
         ]
     },
@@ -818,11 +720,11 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 260,
+        "y": 580,
         "wires": [
             [
                 "0dbc45f6c3d8c93e",
-                "2f8eeac7ef0890d0"
+                "0debb746e89c4a5f"
             ]
         ]
     },
@@ -844,11 +746,10 @@
         "senderr": false,
         "headers": [],
         "x": 590,
-        "y": 240,
+        "y": 580,
         "wires": [
             [
-                "2f8eeac7ef0890d0",
-                "8c0e89441f4ed622"
+                "2f8eeac7ef0890d0"
             ]
         ]
     },
@@ -863,7 +764,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 140,
-        "y": 260,
+        "y": 580,
         "wires": [
             [
                 "b3af276fefe8f6d6"
@@ -881,7 +782,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 160,
+        "y": 480,
         "wires": [
             [
                 "618a40063639d0f7"
@@ -897,7 +798,7 @@
         "statusCode": "",
         "headers": {},
         "x": 890,
-        "y": 160,
+        "y": 480,
         "wires": []
     },
     {
@@ -913,7 +814,7 @@
         "finalize": "",
         "libs": [],
         "x": 750,
-        "y": 160,
+        "y": 480,
         "wires": [
             [
                 "064543a1791911d6"
@@ -929,7 +830,7 @@
         "statusCode": "",
         "headers": {},
         "x": 890,
-        "y": 260,
+        "y": 580,
         "wires": []
     },
     {
@@ -945,235 +846,10 @@
         "finalize": "",
         "libs": [],
         "x": 750,
-        "y": 260,
+        "y": 580,
         "wires": [
             [
                 "211a3df24ef3a95f"
-            ]
-        ]
-    },
-    {
-        "id": "e8c1d2a1916f58c8",
-        "type": "delay",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "15",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 940,
-        "y": 560,
-        "wires": [
-            [
-                "b9ebcab7887ccc9a"
-            ]
-        ]
-    },
-    {
-        "id": "0728b1c7f3f129eb",
-        "type": "telegram sender",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "",
-        "bot": "664f1e7115a34974",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 1350,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b9ebcab7887ccc9a",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "send to user from Carlos",
-        "func": "msg.payload = {\n    ...msg.fromTG,\n    content: ` ${msg.fromCarlos.answers.map(e => e.sentence).join(' ')}`,\n    type: \"message\",\n}\n\nif (global.get('sent') == false){\n    global.set('sent', true)\n    return msg;\n}\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1130,
-        "y": 560,
-        "wires": [
-            [
-                "0728b1c7f3f129eb"
-            ]
-        ]
-    },
-    {
-        "id": "8c0e89441f4ed622",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "send link",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 900,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "fa2f30655ba38c86",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "to gpt",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "6ae463f0e97af5e5",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "from",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1290,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "fa0d65dd59f44a6f",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "params to Carlos",
-        "func": "msg.url = 'https://carlos-629f15f0dfb63f130000010f.ubos.tech/addLink';\nmsg.link = 'https://www.ubos.tech/'\nmsg.payload = {\n    \"payload\": {\n        \"chatId\": 1679557878963,\n        \"messageId\": 963,\n                \"type\": \"admin_panel\",\n                    \"content\": msg.link,\n                        \"date\": 0\n    },\n    \"originalMessage\": {\n        \"message_id\":11,\n            \"from\": {\n                \"id\": 11,\n                \"is_bot\": false,\n                    \"username\": \"admin_panel\",\n                        \"language_code\": \"en\"\n        },\n        \"chat\": {\n            \"id\": 1679557878963,\n                \"title\": \"Hermeticism\",\n                    \"type\": \"group\",\n                        \"all_members_are_administrators\": true\n        },\n        \"date\": 0,\n        \"text\": msg.link,\n                \"entities\": [\n                    {\n                        \"offset\": 0,\n                        \"length\": 48,\n                        \"type\": \"url\"\n                    }\n                ]\n    },\n    \"_msgid\": \"0\",\n    \"chatId\": \"1679557878963\"\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 330,
-        "y": 860,
-        "wires": [
-            [
-                "60b6d0aeefd88a2c"
-            ]
-        ]
-    },
-    {
-        "id": "60b6d0aeefd88a2c",
-        "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://carlos-629f15f0dfb63f130000010f.ubos.tech/addLink",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 550,
-        "y": 860,
-        "wires": [
-            [
-                "43250c522cd8d297"
-            ]
-        ]
-    },
-    {
-        "id": "10a874ab98113154",
-        "type": "inject",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 860,
-        "wires": [
-            [
-                "fa0d65dd59f44a6f"
-            ]
-        ]
-    },
-    {
-        "id": "43250c522cd8d297",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "983293d097a965bf",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 740,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "f036cbe8da63de1e",
-        "type": "mongodb in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "operation": "find",
-        "x": 490,
-        "y": 380,
-        "wires": [
-            [
-                "34b809a4ac6483e1"
             ]
         ]
     },
@@ -1190,7 +866,7 @@
         "multi": false,
         "operation": "insert",
         "x": 670,
-        "y": 300,
+        "y": 620,
         "wires": []
     },
     {
@@ -1206,10 +882,30 @@
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 300,
+        "y": 620,
         "wires": [
             [
                 "d509aaed97f4f52b"
+            ]
+        ]
+    },
+    {
+        "id": "a9c5b85d5e8e1b81",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "insert in DB",
+        "func": "msg.collection = 'customSupportChatContent'\nmsg.payload={\n    ...msg.forBase,\n    type: 'faq',\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 520,
+        "wires": [
+            [
+                "d4bc55761c1ad0d5"
             ]
         ]
     },
@@ -1226,775 +922,304 @@
         "multi": false,
         "operation": "insert",
         "x": 670,
-        "y": 200,
+        "y": 520,
         "wires": []
     },
     {
-        "id": "a9c5b85d5e8e1b81",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "insert in DB",
-        "func": "msg.collection = 'customSupportChatContent'\nmsg.payload={\n    ...msg.forBase,\n    type: 'faq',\n    deleted: false\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 200,
-        "wires": [
-            [
-                "d4bc55761c1ad0d5"
-            ]
-        ]
-    },
-    {
-        "id": "b75670c2b0f9fe41",
+        "id": "54914abb2852c2c1",
         "type": "http in",
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "",
-        "url": "/getContent",
-        "method": "get",
+        "url": "/sendENV",
+        "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 140,
-        "y": 380,
+        "y": 780,
         "wires": [
             [
-                "0f22b0ef2b41bbf7",
-                "aa5cb53a87ae7c20"
+                "954dcad95a45174f"
             ]
         ]
     },
     {
-        "id": "0f22b0ef2b41bbf7",
+        "id": "954dcad95a45174f",
         "type": "function",
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
-        "name": "filters",
-        "func": "msg.collection = 'customSupportChatContent'\n\nmsg.payload={\n    deleted:false,\n    chatId: +msg.req.query.chatId,\n    type: msg.req.query.type\n}\nreturn msg;",
+        "name": "insert in DB",
+        "func": "msg.collection = 'customSupportChatENV'\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 330,
-        "y": 380,
+        "y": 780,
         "wires": [
             [
-                "f036cbe8da63de1e"
+                "23c7940c97ab3484",
+                "4cb26473f0e563f2"
             ]
         ]
     },
     {
-        "id": "34b809a4ac6483e1",
+        "id": "4cb26473f0e563f2",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "res",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Data was sent!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 760,
+        "wires": [
+            [
+                "4cd6da742e40414d"
+            ]
+        ]
+    },
+    {
+        "id": "4cd6da742e40414d",
+        "type": "http response",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "saveENV end",
+        "statusCode": "",
+        "headers": {},
+        "x": 700,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "23c7940c97ab3484",
+        "type": "objectid",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "selectedProperty": "_id",
+        "x": 510,
+        "y": 800,
+        "wires": [
+            [
+                "8d3837a0503eedad"
+            ]
+        ]
+    },
+    {
+        "id": "8d3837a0503eedad",
+        "type": "mongodb out",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 670,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "ea5fc952afbd1f80",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "query",
+        "func": "msg.collection = 'customSupportChatContent'\n\nmsg.payload = [\n    {\n        $lookup: {\n            from: \"customSupportChatContent\",\n            pipeline: [\n                {\n                    $match: {\n                        deleted: false,\n                        chatId: +msg.req.query.chatId,\n                        type: msg.req.query.type\n                    }\n                }\n            ],\n            as: \"customSupportChatContent\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatBases\",\n            pipeline: [\n                {\n                    $project:{\n                        label: 1,\n                        value: 1\n                    }\n                }\n            ],\n            as: \"customSupportChatBases\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatENV\",\n            pipeline: [],\n            as: \"customSupportChatENV\"\n        }\n    },\n\n    { $limit: 1 },\n    {\n        $project: {\n            \"customSupportChatContent\": 1,\n            \"customSupportChatBases\": 1,\n            \"customSupportChatENV\": 1,\n        }\n    }\n]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 680,
+        "wires": [
+            [
+                "72deefa1084b6e16",
+                "5f789ff4965461ec"
+            ]
+        ]
+    },
+    {
+        "id": "c3e86306bbe3e1e2",
+        "type": "http in",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "url": "/getInfoFromDB",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 680,
+        "wires": [
+            [
+                "ea5fc952afbd1f80",
+                "5f789ff4965461ec"
+            ]
+        ]
+    },
+    {
+        "id": "72deefa1084b6e16",
+        "type": "mongodb in",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "operation": "aggregate",
+        "x": 470,
+        "y": 680,
+        "wires": [
+            [
+                "a3c9fb1554c155a7",
+                "5f789ff4965461ec"
+            ]
+        ]
+    },
+    {
+        "id": "a3c9fb1554c155a7",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "return result",
+        "func": "if (msg.payload[0].customSupportChatENV.length == 0) {\n    msg.payload[0].customSupportChatENV = {\n        _id: ''\n    }\n    msg.payload = {\n        content: msg.payload[0].customSupportChatContent,\n        envs: msg.payload[0].customSupportChatENV,\n        bases: msg.payload[0].customSupportChatBases,\n    }\n} else {\n    msg.payload[0].customSupportChatENV = msg.payload[0].customSupportChatENV[0]\n\n    msg.payload = {\n        content: msg.payload[0].customSupportChatContent,\n        envs: msg.payload[0].customSupportChatENV,\n        bases: msg.payload[0].customSupportChatBases,\n    }\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 680,
+        "wires": [
+            [
+                "990f41175174623e",
+                "5f789ff4965461ec"
+            ]
+        ]
+    },
+    {
+        "id": "990f41175174623e",
         "type": "http response",
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 650,
-        "y": 380,
+        "x": 750,
+        "y": 680,
         "wires": []
     },
     {
-        "id": "b8db10544fd757cc",
+        "id": "5f789ff4965461ec",
         "type": "debug",
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
-        "name": "send faq",
+        "name": "debug 2",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
+        "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 900,
-        "y": 120,
+        "x": 760,
+        "y": 720,
         "wires": []
     },
     {
-        "id": "aa5cb53a87ae7c20",
-        "type": "debug",
+        "id": "2d302f1d64912215",
+        "type": "http in",
         "z": "7a7661f89d2855d9",
         "g": "88b6a5d9eef06a2f",
-        "name": "debug 6",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 370,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "42d0dc13386dc408",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "completion:Write a story about a dog",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "completion",
-        "payload": "Write a story about a dog",
-        "payloadType": "str",
-        "x": 200,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b311e53c8cc6e850",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "image:a simple bird",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "format",
-                "v": "url",
-                "vt": "str"
-            },
-            {
-                "p": "size",
-                "v": "1024x1024",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "image",
-        "payload": "a simple bird",
-        "payloadType": "str",
-        "x": 250,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d34d8873061a0dc5",
-        "type": "debug",
-        "z": "99a8aaa6537c5607",
-        "name": "debug images response",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1210,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "bddef048a8549801",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "edit:reverse the text",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "last",
-                "v": "last",
-                "vt": "flow"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "edit",
-        "payload": "2",
-        "payloadType": "str",
-        "x": 250,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "42101fde0556c447",
-        "type": "change",
-        "z": "99a8aaa6537c5607",
         "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "last",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 100,
+        "url": "/createBase",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 860,
         "wires": [
             [
-                "0b878430dc63a7b8"
+                "97d6c37541160413"
             ]
         ]
     },
     {
-        "id": "e4458f17c29a5ca0",
-        "type": "switch",
-        "z": "99a8aaa6537c5607",
-        "name": "",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "edit",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "completion",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "turbo",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "image",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 4,
-        "x": 610,
-        "y": 140,
-        "wires": [
-            [],
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "0b878430dc63a7b8",
-        "type": "debug",
-        "z": "99a8aaa6537c5607",
-        "name": "debug completions/edits/templates response",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1270,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "198163aeec14e576",
-        "type": "template",
-        "z": "99a8aaa6537c5607",
-        "name": "proofread input",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Proofread the following text: `{{payload}}`",
-        "output": "str",
-        "x": 480,
-        "y": 520,
+        "id": "97d6c37541160413",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "insert in DB",
+        "func": "msg.collection = 'customSupportChatBases'\nmsg.payload={\n    ...msg.payload,\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 860,
         "wires": [
             [
-                "cf8441cceeb9d2e6"
+                "f92bc4861d7692ac",
+                "201b900ec5c83c70"
             ]
         ]
     },
     {
-        "id": "308cd815a995015b",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "input text to proofread",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "I ate some apples four dinner last thursday. they were very good.",
-        "payloadType": "str",
-        "x": 240,
-        "y": 520,
-        "wires": [
-            [
-                "198163aeec14e576"
-            ]
-        ]
-    },
-    {
-        "id": "8de0c5dd9078ba04",
-        "type": "debug",
-        "z": "99a8aaa6537c5607",
-        "name": "debug prompt templates",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
+        "id": "f92bc4861d7692ac",
+        "type": "function",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "res",
+        "func": "msg.payload = {\n    success: true,\n    payload: 'Data was sent!'\n}\nmsg.statusCode = 200\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
         "x": 510,
-        "y": 460,
+        "y": 860,
+        "wires": [
+            [
+                "100a99cfeddc5c28"
+            ]
+        ]
+    },
+    {
+        "id": "100a99cfeddc5c28",
+        "type": "http response",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 860,
         "wires": []
     },
     {
-        "id": "3cbeac4446f56a98",
-        "type": "template",
-        "z": "99a8aaa6537c5607",
-        "name": "generate d&d npc description",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Generate a high-quality Dungeons and Dragons NPC named {{name}} that is a {{gender}} {{race}} {{class}} {{occupation}}.",
-        "output": "str",
-        "x": 520,
-        "y": 560,
-        "wires": [
-            [
-                "cf8441cceeb9d2e6"
-            ]
-        ]
-    },
-    {
-        "id": "b6e05a45d6937c30",
-        "type": "change",
-        "z": "99a8aaa6537c5607",
-        "name": "set msg.topic to completion",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "completion",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 220,
-        "y": 460,
-        "wires": [
-            [
-                "8de0c5dd9078ba04"
-            ]
-        ]
-    },
-    {
-        "id": "aa95d33144d4bd6a",
-        "type": "template",
-        "z": "99a8aaa6537c5607",
-        "name": "generate d&d npc stat block",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Generate a {{format}} for a high-quality Dungeons and Dragons 5e NPC that is a level {{level}} {{gender}} {{race}} {{class}} {{occupation}}.",
-        "output": "str",
-        "x": 520,
-        "y": 600,
-        "wires": [
-            [
-                "cf8441cceeb9d2e6"
-            ]
-        ]
-    },
-    {
-        "id": "136e02a3a2c46997",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "input npc characteristics",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "gender",
-                "v": "Female",
-                "vt": "str"
-            },
-            {
-                "p": "race",
-                "v": "Dwarf",
-                "vt": "str"
-            },
-            {
-                "p": "class",
-                "v": "Cleric",
-                "vt": "str"
-            },
-            {
-                "p": "occupation",
-                "v": "Blacksmith",
-                "vt": "str"
-            },
-            {
-                "p": "level",
-                "v": "5",
-                "vt": "str"
-            },
-            {
-                "p": "format",
-                "v": "stat block",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 240,
-        "y": 600,
-        "wires": [
-            [
-                "aa95d33144d4bd6a"
-            ]
-        ]
-    },
-    {
-        "id": "5c5d8d2917dbea0e",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "input npc characteristics",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "gender",
-                "v": "Female",
-                "vt": "str"
-            },
-            {
-                "p": "race",
-                "v": "Dwarf",
-                "vt": "str"
-            },
-            {
-                "p": "class",
-                "v": "Cleric",
-                "vt": "str"
-            },
-            {
-                "p": "occupation",
-                "v": "Blacksmith",
-                "vt": "str"
-            },
-            {
-                "p": "level",
-                "v": "5",
-                "vt": "str"
-            },
-            {
-                "p": "name",
-                "v": "Merelda Ironheart",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 240,
-        "y": 560,
-        "wires": [
-            [
-                "3cbeac4446f56a98"
-            ]
-        ]
-    },
-    {
-        "id": "012cb585da4a47d2",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "turbo:Write a story about a Elephant",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "history",
-                "v": "#:(memoryOnly)::history",
-                "vt": "flow"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "turbo",
-        "payload": "Change it to be about a Elephant.",
-        "payloadType": "str",
-        "x": 200,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e10a1535e6f2603e",
-        "type": "change",
-        "z": "99a8aaa6537c5607",
-        "name": "set flow.last & flow.history",
-        "rules": [
-            {
-                "t": "set",
-                "p": "last",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg",
-                "dc": true
-            },
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::history",
-                "pt": "flow",
-                "to": "history",
-                "tot": "msg",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 970,
-        "y": 140,
-        "wires": [
-            [
-                "a5b7d220495f8ee3"
-            ]
-        ]
-    },
-    {
-        "id": "a5b7d220495f8ee3",
-        "type": "debug",
-        "z": "99a8aaa6537c5607",
-        "name": "debug \"gpt-3.5-turbo-0301\" response",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1250,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "aae49618ba869fd5",
-        "type": "change",
-        "z": "99a8aaa6537c5607",
-        "name": "reset flow.history",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::history",
-                "pt": "flow",
-                "to": "history",
-                "tot": "msg",
-                "dc": true
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 470,
-        "y": 40,
-        "wires": [
-            [
-                "71bbba7912a2e68b"
-            ]
-        ]
-    },
-    {
-        "id": "1a948b8cef88d3b7",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "Reset convesation history",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "history",
-                "v": "[]",
-                "vt": "json"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "turbo",
-        "payload": "",
-        "payloadType": "str",
-        "x": 230,
-        "y": 40,
-        "wires": [
-            [
-                "aae49618ba869fd5"
-            ]
-        ]
-    },
-    {
-        "id": "71bbba7912a2e68b",
-        "type": "debug",
-        "z": "99a8aaa6537c5607",
-        "name": "debug reset",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1170,
-        "y": 40,
-        "wires": []
-    },
-    {
-        "id": "f93138b63cf443e3",
-        "type": "inject",
-        "z": "99a8aaa6537c5607",
-        "name": "turbo:Change it to be about a dog.",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "history",
-                "v": "#:(memoryOnly)::history",
-                "vt": "flow"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "turbo",
-        "payload": "Change it to be about a dog.",
-        "payloadType": "str",
-        "x": 200,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a0a2360f8d0cf2fb",
-        "type": "comment",
-        "z": "99a8aaa6537c5607",
-        "name": "Using templates to preset model behavior",
-        "info": "",
-        "x": 180,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "2f5cd362ab11c50b",
-        "type": "comment",
-        "z": "99a8aaa6537c5607",
-        "name": "Starting a conversation [turbo]",
-        "info": "",
-        "x": 220,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "8b9aaa67d3a22823",
-        "type": "comment",
-        "z": "99a8aaa6537c5607",
-        "name": "Continuing a conversation [turbo]",
-        "info": "",
-        "x": 210,
-        "y": 320,
+        "id": "201b900ec5c83c70",
+        "type": "mongodb out",
+        "z": "7a7661f89d2855d9",
+        "g": "88b6a5d9eef06a2f",
+        "mongodb": "804b53453d444541",
+        "name": "",
+        "collection": "",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 510,
+        "y": 900,
         "wires": []
     }
 ]

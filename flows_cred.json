@@ -5,19 +5,16 @@
     "2d160ee15669a804": {
         "creds": "{\n  \"type\": \"service_account\",\n  \"project_id\": \"my-project-templates-381412\",\n  \"private_key_id\": \"3b2266cc34f4a394846ce793596de746162f0626\",\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCh8OkFGHaTpaYR\\n18XUXUYjjzjf3el9s2NQ7d22z02zTSMRyDVHJ1e4GiBRwJid5rEDHoKD2GA+S4w2\\nGb2ScH0VYGqMKmxo2vT/QCPVAH3Kedtpc09xEhYT0+geIo+WrRyQgci9iQRsPnVz\\nohMhpL1jrPHFevCfvu6eVe/HctOWd0bga/OyOMVg8xm+0kbsO5xC8Fo2BDlkdc3B\\n679tTiQ1ySR+1Q3tGRQTFDJVwBAzCi1B70WyQM3CK8lci9SiUkZIWnrR20SY8GE6\\ni+CtR1KgUbbBtCzhOfweoZ/BCeOmmNJPBuvbd1pQJhjfJFA6pmrdp7d7pNo4wxjZ\\n42VJsJyrAgMBAAECggEABTnkG0D92qf24w6GmOLlt5IQsNDVjzPx2ZPDmvm3tTih\\nEBrY9VHkt9FIB7ticX4XalVauuyJtpjzjm9oOcidkMoKxjk8RGoEjBRC08XvSVCD\\nbzTEdI6z3bHyBL7yyVcO2+8ETnGUjfW6DqBFY8mQPx4+szPTfiRISR3W3iXrhCiK\\nC+uXma2M3K1JJcv3odeZg7PWb67Q2Qi6/2tATdU8NQt+OxlhhRljTcQX4io8JhYD\\nEaYSmc62xOJ7k99ds/vK7LHMjk3d+cOQWr5Eh2n4YxsHaOqD/Oy0ocQj4/MLM/Zg\\n68gcEe7e+PJ7F6EyDEvm1IKZh+tzFA+rMDMZhfKhGQKBgQDkINk+w97lFzE17XaI\\nlbUQfoN2o38+2SqIsvSeQK34Bi7YFX387TEPAMJKz6j9NGbcdxaZS4vZ5XMg/9Zz\\njuUhhlbqvTxogldbe+0WwAFaax+FtVPGwPd/uv73Zpv8lwTwzMhuitMkswOk6wKI\\nVgxFG8EFm4o3hQI0mojyvh+JDQKBgQC1ue2LgKuiSb1PxpJm2VeKCUEtOQpM/Ztk\\n/rdA/2mUICVXHMTGYXnTEDbVdSFTG20SInZbzY2Lc/23NQOfXohEiE+qsmffpKI1\\nCL4a8PcTT8ZIS3KRCsBr3uHC2aaH7CndIcV3nvYqQg639wCIpoO9XvWT6mUTVCmP\\nqASp2tRelwKBgEGjtf6aS0MtlipHJkkMkmmpjVgQmSdTQyrMGxiB0czAsq/YF0U0\\nVl5TwJPYBm68qjAbT/RRyW6r16GSG3lqj0FDLzUhuAT2I/6dvM1D99+1XP+S+gUB\\nNvWYr44uBwn5xiEnOzCbXz97BrxoJnVmFOe5oaNkarOo4MaUBH2b+OTtAoGAPdc9\\nrQFmZt2tHJ64Z2OC1Kh9k4Qbq0OKQ/4iIm5IYW3nBxP1KoU1TcvwvQcVBhEJNuif\\nWnJCvrgEGPpjdzJWMOwqIC6CBqshv+Zvuv9RNTMqiKOUIyODg7HfJc2nTA3j2SqK\\n5kAkCRFdrODTP61am3DbJTDYoJE9a3OD0sFzD5UCgYEAgX1O6K9DYMuAg8o8ySPW\\nfqofmqmll8ltEDO/raDQHS/9huKGFlOiBt0RRb2vIB0XskYucNEhPjwBDN2k6QwM\\nqchPO32DCKLVsnEi80QUkxhJtrYvIfpsPptxmhecg+MzF943vYgytnvQWrPxmEK/\\nkLe82yuLeS8U6xxVU9gdRik=\\n-----END PRIVATE KEY-----\\n\",\n  \"client_email\": \"customer-support-chatgpt@my-project-templates-381412.iam.gserviceaccount.com\",\n  \"client_id\": \"109396448499036948961\",\n  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/customer-support-chatgpt%40my-project-templates-381412.iam.gserviceaccount.com\"\n}"
     },
-    "9f3ba05a2d365219": {},
     "740c1ded671363bb": {
         "organization": "org-oAheGfbQDOLu8EWmk3v5Bzd3",
         "api_key": "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"
     },
-    "954dfe3b66b6b50b": {},
-    "182e3f7e1164e3a8": {},
     "e206160bc20d899c": {},
     "0debb746e89c4a5f": {},
     "44b072232cdffd6d": {},
-    "60b6d0aeefd88a2c": {},
     "804b53453d444541": {
         "user": "Nastia",
         "password": "132465798"
-    }
+    },
+    "04ce983a99fc32bb": {}
 }
