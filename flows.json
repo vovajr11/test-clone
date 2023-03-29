@@ -68,20 +68,26 @@
             "a2de51e60bf0180f",
             "a3c579f231e44bed",
             "61822712ccd02b9e",
-            "2246117a89ae4174"
+            "2246117a89ae4174",
+            "76119660bc029cb1",
+            "7df1a8d4db5f3d5d",
+            "279304c387ada3b7",
+            "b13158015337220b",
+            "3b936abd32e97b4b"
         ],
         "x": 34,
         "y": 279,
         "w": 1012,
-        "h": 302
+        "h": 362
     },
     {
         "id": "d8cfe7b1b3bf43f9",
         "type": "group",
         "z": "0810a50fef13cf49",
-        "name": "",
+        "name": "Telegram",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#6f2fa0"
         },
         "nodes": [
             "505f8f55258170f4",
@@ -91,14 +97,12 @@
             "c22074a6b5f02a20",
             "239844ac394e7d3d",
             "e4747a5ccfb01809",
-            "0eaf0ec5f00e4453",
-            "bd6556927379f58c",
-            "5c0e17765992d3e6"
+            "0eaf0ec5f00e4453"
         ],
         "x": 34,
-        "y": 599,
-        "w": 1292,
-        "h": 202
+        "y": 659,
+        "w": 1172,
+        "h": 162
     },
     {
         "id": "664f1e7115a34974",
@@ -401,7 +405,7 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 500,
+        "x": 520,
         "y": 480,
         "wires": [
             [
@@ -418,7 +422,7 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 630,
+        "x": 650,
         "y": 480,
         "wires": [
             [
@@ -452,7 +456,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 910,
+        "x": 930,
         "y": 480,
         "wires": []
     },
@@ -462,13 +466,13 @@
         "z": "0810a50fef13cf49",
         "g": "92b1bb103a4ae997",
         "name": "return res",
-        "func": "msg.statusCode = 200\nreturn msg;",
+        "func": "msg.statusCode = 200\nglobal.set('isCredentialsSent', true)\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
+        "x": 800,
         "y": 480,
         "wires": [
             [
@@ -482,7 +486,7 @@
         "z": "0810a50fef13cf49",
         "g": "92b1bb103a4ae997",
         "name": "set filename",
-        "func": "msg.filename = 'credentials.json'\nreturn msg;",
+        "func": "msg.filename = 'credentials.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -492,7 +496,8 @@
         "y": 480,
         "wires": [
             [
-                "94ce6eb7b6fc6ca2"
+                "94ce6eb7b6fc6ca2",
+                "b13158015337220b"
             ]
         ]
     },
@@ -546,8 +551,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 500,
-        "y": 540,
+        "x": 520,
+        "y": 560,
         "wires": [
             [
                 "d50742feb64f5c95"
@@ -563,8 +568,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 630,
-        "y": 540,
+        "x": 650,
+        "y": 560,
         "wires": [
             [
                 "61822712ccd02b9e"
@@ -582,7 +587,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 140,
-        "y": 540,
+        "y": 560,
         "wires": [
             [
                 "2246117a89ae4174"
@@ -597,8 +602,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 910,
-        "y": 540,
+        "x": 930,
+        "y": 560,
         "wires": []
     },
     {
@@ -607,14 +612,14 @@
         "z": "0810a50fef13cf49",
         "g": "92b1bb103a4ae997",
         "name": "return res",
-        "func": "msg.statusCode = 200\nreturn msg;",
+        "func": "msg.statusCode = 200\nglobal.set('isContentSent', true)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 540,
+        "x": 800,
+        "y": 560,
         "wires": [
             [
                 "a3c579f231e44bed"
@@ -627,17 +632,18 @@
         "z": "0810a50fef13cf49",
         "g": "92b1bb103a4ae997",
         "name": "set filename",
-        "func": "msg.filename = 'content.json'\nreturn msg;",
+        "func": "msg.filename = 'content.json'\nglobal.set('isContentSent', false)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 540,
+        "y": 560,
         "wires": [
             [
-                "6e9a5a32adfc4155"
+                "6e9a5a32adfc4155",
+                "7df1a8d4db5f3d5d"
             ]
         ]
     },
@@ -815,7 +821,7 @@
         "saveDataDir": "",
         "filterCommands": false,
         "x": 150,
-        "y": 680,
+        "y": 760,
         "wires": [
             [
                 "408047268eb4ca17"
@@ -836,7 +842,7 @@
         "finalize": "",
         "libs": [],
         "x": 360,
-        "y": 680,
+        "y": 740,
         "wires": [
             [
                 "27b7a38408df90aa"
@@ -855,8 +861,8 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 730,
-        "y": 640,
+        "x": 690,
+        "y": 700,
         "wires": [
             []
         ]
@@ -874,7 +880,7 @@
         "finalize": "",
         "libs": [],
         "x": 530,
-        "y": 640,
+        "y": 700,
         "wires": [
             [
                 "e0d2485dc01997da"
@@ -894,11 +900,10 @@
         "finalize": "",
         "libs": [],
         "x": 550,
-        "y": 720,
+        "y": 780,
         "wires": [
             [
-                "239844ac394e7d3d",
-                "5c0e17765992d3e6"
+                "239844ac394e7d3d"
             ]
         ]
     },
@@ -919,12 +924,11 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 720,
-        "y": 720,
+        "x": 700,
+        "y": 780,
         "wires": [
             [
-                "0eaf0ec5f00e4453",
-                "bd6556927379f58c"
+                "0eaf0ec5f00e4453"
             ]
         ]
     },
@@ -937,8 +941,8 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 1210,
-        "y": 700,
+        "x": 1090,
+        "y": 780,
         "wires": [
             []
         ]
@@ -955,49 +959,123 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
-        "y": 720,
+        "x": 880,
+        "y": 780,
         "wires": [
             [
-                "e4747a5ccfb01809",
-                "bd6556927379f58c"
+                "e4747a5ccfb01809"
             ]
         ]
     },
     {
-        "id": "bd6556927379f58c",
-        "type": "debug",
+        "id": "76119660bc029cb1",
+        "type": "function",
         "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
-        "name": "from chatGPT",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1200,
-        "y": 740,
-        "wires": []
+        "g": "92b1bb103a4ae997",
+        "name": "default data",
+        "func": "if (global.get('isContentSent') === false) {\nmsg.payload={\n    welcomeMessage: \n`Hello! Welcome to our store.\nWe're excited to help you find the perfect product for your needs.\nHow we can help you?`,\n    insturctions: \n`You are an assistant in an E-commerce store that sells fashion accessories.\n\nCustomers could ask you questions about product information, order status, shipping, and returns.\n\nHere's an example:\n\nQuestion: \"What's the material of the green scarf with flowers on your website?\"\nAnswer: \"The green scarf with flowers on our website is made of 100% silk.\"\n\nQuestion: \"Where's my order?\"\nAnswer: \"To check the status of your order, please log in to your account on our website and go to the 'Orders' section. You should see the status of your order there.\"\n\nQuestion: \"How long does it take to receive my order?\"\nAnswer: \"The delivery time depends on your location and the shipping method you choose at checkout. Please refer to our Shipping and Delivery page on our website for more information.\"\n\nQuestion: \"What's your return policy?\"\nAnswer: \"We offer free returns within 30 days of purchase. Please log in to your account and go to the 'Returns' section to initiate a return.\n`\n}\n\nglobal.set('isContentSent', true)\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 600,
+        "wires": [
+            [
+                "61822712ccd02b9e"
+            ]
+        ]
     },
     {
-        "id": "5c0e17765992d3e6",
-        "type": "debug",
+        "id": "7df1a8d4db5f3d5d",
+        "type": "delay",
         "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
-        "name": "to gpt",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 830,
-        "y": 760,
-        "wires": []
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 495,
+        "y": 600,
+        "wires": [
+            [
+                "76119660bc029cb1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "279304c387ada3b7",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "default data",
+        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"bot_name\": '',\n        \"bot_token\": '',\n        \"openai_api\": ''\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 520,
+        "wires": [
+            [
+                "f053f373371e31b2"
+            ]
+        ]
+    },
+    {
+        "id": "b13158015337220b",
+        "type": "delay",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 495,
+        "y": 520,
+        "wires": [
+            [
+                "279304c387ada3b7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3b936abd32e97b4b",
+        "type": "catch",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "scope": [
+            "94ce6eb7b6fc6ca2",
+            "6e9a5a32adfc4155"
+        ],
+        "uncaught": false,
+        "x": 110,
+        "y": 440,
+        "wires": [
+            []
+        ]
     }
 ]
