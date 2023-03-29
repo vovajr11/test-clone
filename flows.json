@@ -1,6 +1,6 @@
 [
     {
-        "id": "7a7661f89d2855d9",
+        "id": "0810a50fef13cf49",
         "type": "tab",
         "label": "Logic",
         "disabled": false,
@@ -8,123 +8,73 @@
         "env": []
     },
     {
-        "id": "121cbaa6951ffc3d",
+        "id": "5612d3dae22d78b8",
         "type": "group",
-        "z": "7a7661f89d2855d9",
-        "name": "ChatBot",
-        "style": {
-            "label": true,
-            "stroke": "#6f2fa0"
-        },
-        "nodes": [
-            "33fd8bf464b4aad7",
-            "c153bc331a7cf580",
-            "3930edf2b8ee484d",
-            "efd534ca1b8fa227",
-            "e9fa4200a1aa480e",
-            "fe2f71737fa01418",
-            "283475e4b8064cd5",
-            "9264dd2aaeba9ce7",
-            "e206160bc20d899c",
-            "f7a57ddf2274950b",
-            "46877e058684d472",
-            "e8c1d2a1916f58c8",
-            "0728b1c7f3f129eb",
-            "b9ebcab7887ccc9a",
-            "fa2f30655ba38c86",
-            "6ae463f0e97af5e5",
-            "4b8dd44dd5fbfa6f",
-            "90897643613109c5",
-            "04ce983a99fc32bb",
-            "1bae0b8d75e4851b",
-            "686d97837a91cf6e"
-        ],
-        "x": 34,
-        "y": 199,
-        "w": 1492,
-        "h": 222
-    },
-    {
-        "id": "b02ac0a1344e59dd",
-        "type": "group",
-        "z": "7a7661f89d2855d9",
+        "z": "0810a50fef13cf49",
         "name": "Global",
         "style": {
             "stroke": "#92d04f",
             "label": true
         },
         "nodes": [
-            "55c2b19dd84bc194",
-            "1431a998f281f173",
-            "c843733990e6483c",
-            "4a2a22fc258ee39c",
-            "bbff8f9f236db4d0"
+            "bf3324c4df8120cc",
+            "e971752f4e86f0b9",
+            "7a31c48629f14a8f",
+            "d49204b7b290b644",
+            "384fec5fbcdafdf7",
+            "5d06e16571102535",
+            "cb546fbc64ee6dab",
+            "dead81051b36fc0b",
+            "908b6f805b1030a8",
+            "e63e3dffa7bda353",
+            "d55c23f5b4fc284c",
+            "a67b265e4b0bc024"
         ],
         "x": 34,
-        "y": 39,
-        "w": 652,
-        "h": 122
+        "y": 59,
+        "w": 692,
+        "h": 202
     },
     {
-        "id": "88b6a5d9eef06a2f",
+        "id": "92b1bb103a4ae997",
         "type": "group",
-        "z": "7a7661f89d2855d9",
-        "name": "from ADMIN",
+        "z": "0810a50fef13cf49",
+        "name": "FromAdmin",
         "style": {
             "stroke": "#0070c0",
             "label": true
         },
         "nodes": [
-            "618a40063639d0f7",
-            "44b072232cdffd6d",
-            "b3af276fefe8f6d6",
-            "0debb746e89c4a5f",
-            "7be442840a04b2cc",
-            "0aba3296caa0a263",
-            "064543a1791911d6",
-            "982395a83912b16e",
-            "211a3df24ef3a95f",
-            "2f8eeac7ef0890d0",
-            "d509aaed97f4f52b",
-            "0dbc45f6c3d8c93e",
-            "a9c5b85d5e8e1b81",
-            "d4bc55761c1ad0d5",
-            "54914abb2852c2c1",
-            "954dcad95a45174f",
-            "4cb26473f0e563f2",
-            "4cd6da742e40414d",
-            "23c7940c97ab3484",
-            "8d3837a0503eedad",
-            "ea5fc952afbd1f80",
-            "c3e86306bbe3e1e2",
-            "72deefa1084b6e16",
-            "a3c9fb1554c155a7",
-            "990f41175174623e",
-            "2d302f1d64912215",
-            "97d6c37541160413",
-            "f92bc4861d7692ac",
-            "100a99cfeddc5c28",
-            "201b900ec5c83c70",
-            "d7b48996c9b734b9",
-            "bdcdc4b67e9734b1",
-            "1676bf9cd6156e83",
-            "d2b7a480bb6987ab",
-            "c33fee2e9e839fd3",
-            "e9724563654bb410",
-            "d8f7026c37711f16",
-            "4427eff75bb11aeb",
-            "997496abd32aba51",
-            "3c42bc57f6911107",
-            "5d70a7413a4903a5",
-            "c21beb81e5422049",
-            "15890395f32e7671",
-            "278fdaa88c84e541",
-            "bf1a27819589117b"
+            "5b5d01f9d9bb1fcd",
+            "7e8e339820f6bf02",
+            "1f7cea1f1b360c17",
+            "7d287905b0c8d296",
+            "29ecc33c52081212",
+            "343a090bacfb6d12",
+            "566df61d2466e4b1",
+            "dd6ebbd36fcf0ae4",
+            "48eaba405fc7de76",
+            "0d585bffe8de4476",
+            "94ce6eb7b6fc6ca2",
+            "eac4b616e30ed292",
+            "da2ddbf7783194bd",
+            "d89b83fe9df91f34",
+            "f053f373371e31b2",
+            "dfd249ba3110bb72",
+            "1594043f60dfb0cd",
+            "753902af7e12e4b2",
+            "6e9a5a32adfc4155",
+            "d50742feb64f5c95",
+            "a2de51e60bf0180f",
+            "a3c579f231e44bed",
+            "61822712ccd02b9e",
+            "2246117a89ae4174",
+            "374ca753cd62d125"
         ],
         "x": 34,
-        "y": 439,
-        "w": 932,
-        "h": 682
+        "y": 279,
+        "w": 1032,
+        "h": 302
     },
     {
         "id": "664f1e7115a34974",
@@ -152,76 +102,10 @@
         "verboselogging": false
     },
     {
-        "id": "804b53453d444541",
-        "type": "mongodb",
-        "hostname": "db627e69c2cd5a3f150000000b-1663619424808nastiadb.ubos-clq9b",
-        "topology": "direct",
-        "connectOptions": "authSource=admin",
-        "port": "27017",
-        "db": "NastiaDB",
-        "name": "DB"
-    },
-    {
-        "id": "33fd8bf464b4aad7",
-        "type": "telegram receiver",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "",
-        "bot": "664f1e7115a34974",
-        "saveDataDir": "",
-        "filterCommands": false,
-        "x": 150,
-        "y": 280,
-        "wires": [
-            [
-                "e9fa4200a1aa480e"
-            ],
-            [
-                "9264dd2aaeba9ce7"
-            ]
-        ]
-    },
-    {
-        "id": "c153bc331a7cf580",
-        "type": "telegram sender",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "",
-        "bot": "664f1e7115a34974",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 1410,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3930edf2b8ee484d",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "free",
-        "func": "msg.url = 'https://carlos-629f15f0dfb63f130000010f.ubos.tech/questionExternal';\nmsg.fromTG = msg.payload\n\nconst chatId = global.get('chatId')\nconst messageId = +(chatId.toString().substr(-3))\n\nmsg.payload = {\n    \"chatId\": chatId,\n    \"messageId\": messageId,\n    \"type\": \"message\",\n    \"content\": msg.payload.content,\n    \"date\": Date.now(),\n    \"originalMessage\": {\n        \"message_id\": messageId,\n        \"from\": {\n            \"id\": \"lib_id\",\n            \"is_bot\": false,\n            \"username\": \"admin_panel\",\n            \"language_code\": \"en\"\n        },\n        \"chat\": {\n            \"id\": chatId,\n            \"title\": \"Hermeticism\",\n            \"type\": \"group\",\n            \"all_members_are_administrators\": true\n        },\n        \"date\": 0,\n        \"text\": msg.payload.content,\n        \"entities\": [\n            {\n                \"offset\": 0,\n                \"length\": 48,\n                \"type\": \"url\"\n            }\n        ]\n    }\n}\n\ndelete msg.originalMessage\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 320,
-        "wires": [
-            [
-                "e206160bc20d899c",
-                "46877e058684d472"
-            ]
-        ]
-    },
-    {
-        "id": "55c2b19dd84bc194",
+        "id": "bf3324c4df8120cc",
         "type": "inject",
-        "z": "7a7661f89d2855d9",
-        "g": "b02ac0a1344e59dd",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
         "name": "",
         "props": [
             {
@@ -240,267 +124,670 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "d49204b7b290b644"
+            ]
+        ]
+    },
+    {
+        "id": "e971752f4e86f0b9",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "ENV",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name,\n    BOT_TOKEN: data.bot_token,\n    OPENAI_API: data.openai_api\n}\n\nglobal.set(\"process_env\", process_env)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a31c48629f14a8f",
+        "type": "complete",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "",
+        "scope": [
+            "7e8e339820f6bf02"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "d49204b7b290b644"
+            ]
+        ]
+    },
+    {
+        "id": "d49204b7b290b644",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "getEnvs",
+        "func": "msg.filename = 'credentials.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
         "y": 120,
         "wires": [
             [
-                "4a2a22fc258ee39c"
+                "384fec5fbcdafdf7"
             ]
         ]
     },
     {
-        "id": "1431a998f281f173",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "b02ac0a1344e59dd",
-        "name": "ENV",
-        "func": "if(msg.payload.length > 0){\n    const fromDB = msg.payload[0]\n\n    let process_env = {\n        BOT_NAME: fromDB.bot_name,\n        BOT_TOKEN: fromDB.bot_token,\n\n        OPENAI_API: fromDB.openai_api,\n\n        WELCOME_MSG: fromDB.welcome_msg\n    }\n\n    global.set(\"process_env\", process_env)\n    return msg;\n}\n\n/*\nBOT_NAME: 'CustomerSupportChatGPTBot',\nBOT_TOKEN: '6289221273:AAHDRRPbDrLeOED9JUpfYQmke2c5aAO2aIY',\n\nOPENAI_API: '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',\nOPENAI_ORG: 'org-oAheGfbQDOLu8EWmk3v5Bzd3',\n*/",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "efd534ca1b8fa227",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "send to user from chat",
-        "func": "const responseChatGPT = msg.payload.choices[0].message.content\nlet history = global.get('history') || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": responseChatGPT });\n    global.set('history', history);\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1160,
-        "y": 340,
-        "wires": [
-            [
-                "c153bc331a7cf580",
-                "6ae463f0e97af5e5"
-            ]
-        ]
-    },
-    {
-        "id": "e9fa4200a1aa480e",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "check command",
-        "func": "if(msg.payload.content ==='/start'){\n    return[msg, null, null]\n} else if (msg.payload.content.charAt(0) === '/' && msg.payload.content !== '/start') {\n    msg.collection = 'customSupportChatBases'\n    msg.fromTG = msg.payload\n    msg.payload={}\n    return [null, msg, null]\n}\nelse{\n    return[null, null, msg]\n}",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 280,
-        "wires": [
-            [
-                "283475e4b8064cd5"
-            ],
-            [
-                "686d97837a91cf6e",
-                "1bae0b8d75e4851b"
-            ],
-            [
-                "3930edf2b8ee484d"
-            ]
-        ]
-    },
-    {
-        "id": "fe2f71737fa01418",
-        "type": "telegram sender",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
+        "id": "5b5d01f9d9bb1fcd",
+        "type": "http in",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
         "name": "",
-        "bot": "664f1e7115a34974",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 750,
-        "y": 260,
+        "url": "/saveCredentials",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 320,
         "wires": [
-            []
+            [
+                "1f7cea1f1b360c17"
+            ]
         ]
     },
     {
-        "id": "283475e4b8064cd5",
+        "id": "7e8e339820f6bf02",
+        "type": "http response",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "saveCredentials",
+        "statusCode": "",
+        "headers": {},
+        "x": 940,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "1f7cea1f1b360c17",
         "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "/start",
-        "func": "const filterHtmlTags = (text) => {\n    // Remove all HTML tags except for <br> and <br/>\n    const filteredText = text.replace(/<(?!br\\s*\\/?)[^>]+>/gi, '');\n    // Replace <br> and <br/> tags with newline characters\n    return filteredText.replace(/<br\\s*\\/?>/gi, '\\n');\n}\n\n\nmsg.payload.content = filterHtmlTags(global.get('process_env').WELCOME_MSG)\n\nglobal.set('history', [])\n\nreturn msg;",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "set filename",
+        "func": "msg.filename = 'credentials.json'\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "0d585bffe8de4476"
+            ]
+        ]
+    },
+    {
+        "id": "7d287905b0c8d296",
+        "type": "file",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 640,
+        "y": 320,
+        "wires": [
+            [
+                "29ecc33c52081212"
+            ]
+        ]
+    },
+    {
+        "id": "29ecc33c52081212",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "return res",
+        "func": "msg.payload={\n    success: true,\n    payload: \"Success!\"\n}\nmsg.statusCode = 200\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 320,
+        "wires": [
+            [
+                "7e8e339820f6bf02",
+                "374ca753cd62d125"
+            ]
+        ]
+    },
+    {
+        "id": "343a090bacfb6d12",
+        "type": "http in",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "url": "/saveContent",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 380,
+        "wires": [
+            [
+                "1594043f60dfb0cd"
+            ]
+        ]
+    },
+    {
+        "id": "566df61d2466e4b1",
+        "type": "http response",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "saveContent",
+        "statusCode": "",
+        "headers": {},
+        "x": 930,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "dd6ebbd36fcf0ae4",
+        "type": "file",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 640,
+        "y": 380,
+        "wires": [
+            [
+                "48eaba405fc7de76"
+            ]
+        ]
+    },
+    {
+        "id": "48eaba405fc7de76",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "return res",
+        "func": "msg.payload={\n    success: true,\n    payload: \"Success!\"\n}\nmsg.statusCode = 200\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 380,
+        "wires": [
+            [
+                "566df61d2466e4b1"
+            ]
+        ]
+    },
+    {
+        "id": "0d585bffe8de4476",
+        "type": "json",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
         "x": 510,
-        "y": 240,
+        "y": 320,
         "wires": [
             [
-                "fe2f71737fa01418",
-                "1bae0b8d75e4851b"
+                "7d287905b0c8d296"
             ]
         ]
     },
     {
-        "id": "9264dd2aaeba9ce7",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "error",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 310,
-        "y": 320,
+        "id": "94ce6eb7b6fc6ca2",
+        "type": "file in",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 500,
+        "y": 480,
+        "wires": [
+            [
+                "eac4b616e30ed292"
+            ]
+        ]
+    },
+    {
+        "id": "eac4b616e30ed292",
+        "type": "json",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 630,
+        "y": 480,
+        "wires": [
+            [
+                "f053f373371e31b2"
+            ]
+        ]
+    },
+    {
+        "id": "da2ddbf7783194bd",
+        "type": "http in",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "url": "/getCredentials",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "dfd249ba3110bb72"
+            ]
+        ]
+    },
+    {
+        "id": "d89b83fe9df91f34",
+        "type": "http response",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 910,
+        "y": 480,
         "wires": []
     },
     {
-        "id": "e206160bc20d899c",
-        "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "Carlos",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 650,
-        "y": 320,
-        "wires": [
-            [
-                "46877e058684d472",
-                "f7a57ddf2274950b"
-            ]
-        ]
-    },
-    {
-        "id": "f7a57ddf2274950b",
+        "id": "f053f373371e31b2",
         "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "to ChatGPT",
-        "func": "///save response from Carlos\nmsg.fromCarlos = msg.payload\n\n//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.payload.answers.map(e => e.sentence).join(' ');\nlet history = global.get('history') || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...history,\n        { \"role\": \"user\", \"content\": `Question: ${msg.fromTG.content} \\n Context: ${content} \\n Please, give me an answer to my Question based on the Context as assistant.` }\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set('history', history);\nglobal.set('sent', false)\n\nreturn msg;\n",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "return res",
+        "func": "msg.statusCode = 200\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 320,
+        "x": 780,
+        "y": 480,
         "wires": [
             [
-                "e8c1d2a1916f58c8",
-                "fa2f30655ba38c86",
-                "04ce983a99fc32bb"
+                "d89b83fe9df91f34"
             ]
         ]
     },
     {
-        "id": "46877e058684d472",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "Carlos",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 790,
+        "id": "dfd249ba3110bb72",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "set filename",
+        "func": "msg.filename = 'credentials.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "94ce6eb7b6fc6ca2"
+            ]
+        ]
+    },
+    {
+        "id": "1594043f60dfb0cd",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "set filename",
+        "func": "msg.filename = 'content.json'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
         "y": 380,
+        "wires": [
+            [
+                "753902af7e12e4b2"
+            ]
+        ]
+    },
+    {
+        "id": "753902af7e12e4b2",
+        "type": "json",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 510,
+        "y": 380,
+        "wires": [
+            [
+                "dd6ebbd36fcf0ae4"
+            ]
+        ]
+    },
+    {
+        "id": "6e9a5a32adfc4155",
+        "type": "file in",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "d50742feb64f5c95"
+            ]
+        ]
+    },
+    {
+        "id": "d50742feb64f5c95",
+        "type": "json",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 630,
+        "y": 540,
+        "wires": [
+            [
+                "61822712ccd02b9e"
+            ]
+        ]
+    },
+    {
+        "id": "a2de51e60bf0180f",
+        "type": "http in",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "url": "/getContent",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 540,
+        "wires": [
+            [
+                "2246117a89ae4174"
+            ]
+        ]
+    },
+    {
+        "id": "a3c579f231e44bed",
+        "type": "http response",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 910,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "e8c1d2a1916f58c8",
-        "type": "delay",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "15",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
+        "id": "61822712ccd02b9e",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "return res",
+        "func": "msg.statusCode = 200\nreturn msg;",
         "outputs": 1,
-        "x": 960,
-        "y": 280,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 540,
         "wires": [
             [
-                "b9ebcab7887ccc9a"
+                "a3c579f231e44bed"
             ]
         ]
     },
     {
-        "id": "0728b1c7f3f129eb",
-        "type": "telegram sender",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "",
-        "bot": "664f1e7115a34974",
-        "haserroroutput": false,
+        "id": "2246117a89ae4174",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "set filename",
+        "func": "msg.filename = 'content.json'\nreturn msg;",
         "outputs": 1,
-        "x": 1410,
-        "y": 280,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "6e9a5a32adfc4155"
+            ]
+        ]
+    },
+    {
+        "id": "384fec5fbcdafdf7",
+        "type": "file in",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "5d06e16571102535"
+            ]
+        ]
+    },
+    {
+        "id": "5d06e16571102535",
+        "type": "json",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 565,
+        "y": 120,
+        "wires": [
+            [
+                "e971752f4e86f0b9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dead81051b36fc0b",
+        "type": "inject",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "908b6f805b1030a8"
+            ]
+        ]
+    },
+    {
+        "id": "a67b265e4b0bc024",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "ENV",
+        "func": "const data = msg.payload\nconst filterHtmlTags = (text) => {\n    // Remove all HTML tags except for <br> and <br/>\n    const filteredText = text.replace(/<(?!br\\s*\\/?)[^>]+>/gi, '');\n    // Replace <br> and <br/> tags with newline characters\n    return filteredText.replace(/<br\\s*\\/?>/gi, '\\n');\n}\n\n\ndata.welcomeMessage = filterHtmlTags(data.welcomeMessage)\nlet content = {\n    WELCOME_MSG: data.welcomeMessage,\n    INSTRUCTIONS: data.instrictions\n}\n\nglobal.set(\"content\", content)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 200,
         "wires": [
             []
         ]
     },
     {
-        "id": "b9ebcab7887ccc9a",
+        "id": "cb546fbc64ee6dab",
+        "type": "complete",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "",
+        "scope": [
+            "566df61d2466e4b1"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "908b6f805b1030a8"
+            ]
+        ]
+    },
+    {
+        "id": "908b6f805b1030a8",
         "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "send to user from Carlos",
-        "func": "const repsonseCarlos = `${msg.fromCarlos.answers.legth > 0 ? msg.fromCarlos.answers.map(e => e.sentence).join(' ') : \"I'm sorry, but I don't have an answer to this question. Try to paraphrase.\"}`\nlet history = global.get('history') || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: repsonseCarlos,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": repsonseCarlos});\n    global.set('history', history);\n    return msg;\n}",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "getContent",
+        "func": "msg.filename = 'content.json'\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1170,
-        "y": 280,
+        "x": 330,
+        "y": 200,
         "wires": [
             [
-                "0728b1c7f3f129eb",
-                "90897643613109c5"
+                "e63e3dffa7bda353"
             ]
         ]
     },
     {
-        "id": "fa2f30655ba38c86",
+        "id": "e63e3dffa7bda353",
+        "type": "file in",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 480,
+        "y": 200,
+        "wires": [
+            [
+                "d55c23f5b4fc284c"
+            ]
+        ]
+    },
+    {
+        "id": "d55c23f5b4fc284c",
+        "type": "json",
+        "z": "0810a50fef13cf49",
+        "g": "5612d3dae22d78b8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 565,
+        "y": 200,
+        "wires": [
+            [
+                "a67b265e4b0bc024"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "374ca753cd62d125",
         "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "to gpt",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "insert",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -509,71 +796,106 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 950,
-        "y": 380,
+        "x": 970,
+        "y": 360,
         "wires": []
     },
     {
-        "id": "6ae463f0e97af5e5",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "from chatGPT",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1400,
-        "y": 380,
-        "wires": []
+        "id": "505f8f55258170f4",
+        "type": "telegram receiver",
+        "z": "0810a50fef13cf49",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 150,
+        "y": 660,
+        "wires": [
+            [
+                "408047268eb4ca17"
+            ],
+            []
+        ]
     },
     {
-        "id": "4b8dd44dd5fbfa6f",
+        "id": "408047268eb4ca17",
         "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "/base",
-        "func": "let chatId = 0\nlet base = \"\"\nlet baseDescription = \"\"\n\nif(msg.payload.length>0){\n    const baseInfo = msg.payload.filter(e => e.label === msg.fromTG.content.replace('/',''))\n    if (baseInfo.length > 0){\n        base = baseInfo[0].label\n        chatId = +baseInfo[0].value\n        baseDescription = baseInfo[0].description\n    } \n}\n\nmsg.payload = msg.fromTG\nglobal.set('chatId', chatId)\nglobal.set('history', [{ \"role\": \"assistant\", \"content\": `How I can help you ${base}? I have a litte information:${baseDescription}`}])\n\nmsg.payload.content = `How I can help you?`\nreturn msg",
+        "z": "0810a50fef13cf49",
+        "name": "check command",
+        "func": "if (msg.payload.content === '/start'){\n    return [msg, null]\n}else{\n    return [null, msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 640,
+        "wires": [
+            [
+                "27b7a38408df90aa"
+            ],
+            [
+                "c22074a6b5f02a20"
+            ]
+        ]
+    },
+    {
+        "id": "e0d2485dc01997da",
+        "type": "telegram sender",
+        "z": "0810a50fef13cf49",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27b7a38408df90aa",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "name": "/start",
+        "func": "msg.payload.content = global.get('content').WELCOME_MSG\n\nglobal.set('history', [{ role: 'user', message: `${global.get('content').CONTENT}`}])\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 620,
+        "wires": [
+            [
+                "e0d2485dc01997da"
+            ]
+        ]
+    },
+    {
+        "id": "c22074a6b5f02a20",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "name": "to ChatGPT",
+        "func": "///save response from Carlos\nmsg.fromTG = msg.payload\n\n//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.fromTG.content;\nlet history = global.get('history') || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...history,\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set('history', history);\nglobal.set('sent', false)\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 550,
-        "y": 280,
+        "y": 680,
         "wires": [
             [
-                "fe2f71737fa01418"
+                "239844ac394e7d3d",
+                "5c0e17765992d3e6"
             ]
         ]
     },
     {
-        "id": "90897643613109c5",
-        "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "from Carlos",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1390,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "04ce983a99fc32bb",
+        "id": "239844ac394e7d3d",
         "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
+        "z": "0810a50fef13cf49",
         "name": "ChatGPT",
         "method": "POST",
         "ret": "obj",
@@ -586,75 +908,54 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 960,
-        "y": 340,
+        "x": 720,
+        "y": 680,
         "wires": [
             [
-                "efd534ca1b8fa227"
+                "0eaf0ec5f00e4453",
+                "bd6556927379f58c"
             ]
         ]
     },
     {
-        "id": "c843733990e6483c",
-        "type": "complete",
-        "z": "7a7661f89d2855d9",
-        "g": "b02ac0a1344e59dd",
+        "id": "e4747a5ccfb01809",
+        "type": "telegram sender",
+        "z": "0810a50fef13cf49",
         "name": "",
-        "scope": [
-            "4cd6da742e40414d"
-        ],
-        "uncaught": false,
-        "x": 130,
-        "y": 80,
+        "bot": "664f1e7115a34974",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 680,
         "wires": [
-            [
-                "4a2a22fc258ee39c"
-            ]
+            []
         ]
     },
     {
-        "id": "4a2a22fc258ee39c",
+        "id": "0eaf0ec5f00e4453",
         "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "b02ac0a1344e59dd",
-        "name": "getENVs",
-        "func": "msg.collection = 'customSupportChatENV'\nmsg.payload={\n\n}\nreturn msg;",
+        "z": "0810a50fef13cf49",
+        "name": "send to user from chat",
+        "func": "const responseChatGPT = msg.payload.choices[0].message.content\nlet history = global.get('history') || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": responseChatGPT });\n    global.set('history', history);\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 100,
+        "x": 960,
+        "y": 680,
         "wires": [
             [
-                "bbff8f9f236db4d0"
+                "e4747a5ccfb01809",
+                "bd6556927379f58c"
             ]
         ]
     },
     {
-        "id": "bbff8f9f236db4d0",
-        "type": "mongodb in",
-        "z": "7a7661f89d2855d9",
-        "g": "b02ac0a1344e59dd",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "operation": "find",
-        "x": 490,
-        "y": 100,
-        "wires": [
-            [
-                "1431a998f281f173"
-            ]
-        ]
-    },
-    {
-        "id": "1bae0b8d75e4851b",
+        "id": "bd6556927379f58c",
         "type": "debug",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "name": "debug 1",
+        "z": "0810a50fef13cf49",
+        "name": "from chatGPT",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -663,838 +964,25 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 960,
-        "y": 240,
+        "x": 1200,
+        "y": 720,
         "wires": []
     },
     {
-        "id": "618a40063639d0f7",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "params to Carlos",
-        "func": "msg.url = 'https://carlos-629f15f0dfb63f130000010f.ubos.tech/insertDataCarlos';\n\nconst content = `${msg.payload.question}. ${msg.payload.answer}`\nconst chatId = msg.payload.chatId\nconst messageId = +msg.payload.chatId.toString().substr(-3)\n\nmsg.forBase={\n    \"question\": msg.payload.question,\n    \"answer\": msg.payload.answer,\n    \"chatId\": msg.payload.chatId\n}\n\nmsg.payload = { \n    \"chatId\": chatId, \n    \"messageId\": messageId, \n    \"type\": \"message\", \n    \"content\": content, \n    \"date\": Date.now(),\n    \"originalMessage\": {\n        \"message_id\": messageId,\n        \"from\": {\n            \"id\": \"lib_id\",\n            \"is_bot\": false,\n            \"username\": \"support_chat\",\n            \"language_code\": \"en\"\n        },\n        \"chat\": {\n            \"id\": chatId,\n            \"title\": \"support\",\n            \"type\": \"group\",\n            \"all_members_are_administrators\": true\n        },\n        \"date\": 0,\n        \"text\": content,\n        \"entities\": [\n            {\n                \"offset\": 0,\n                \"length\": 48,\n                \"type\": \"url\"\n            }\n        ]\n    }\n}\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 480,
-        "wires": [
-            [
-                "a9c5b85d5e8e1b81",
-                "44b072232cdffd6d"
-            ]
-        ]
-    },
-    {
-        "id": "44b072232cdffd6d",
-        "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 590,
-        "y": 480,
-        "wires": [
-            [
-                "982395a83912b16e"
-            ]
-        ]
-    },
-    {
-        "id": "b3af276fefe8f6d6",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "params to Carlos",
-        "func": "msg.url = 'https://carlos-629f15f0dfb63f130000010f.ubos.tech/addLink';\n\nconst content = msg.payload.link\nconst chatId = msg.payload.chatId\nconst messageId = +msg.payload.chatId.toString().substr(-3)\nmsg.forBase = {\n    \"link\": msg.payload.link,\n    \"chatId\": msg.payload.chatId\n}\nmsg.payload = {\n    \"payload\": {\n        \"chatId\": msg.payload.chatId,\n        \"messageId\": messageId,\n        \"type\": \"admin_panel\",\n        \"content\": content,\n        \"date\": 0\n    },\n    \"originalMessage\": {\n        \"message_id\": messageId,\n            \"from\": {\n                \"id\": messageId,\n                \"is_bot\": false,\n                \"username\": \"admin_panel\",\n                \"language_code\": \"en\"\n        },\n        \"chat\": {\n            \"id\": chatId,\n            \"title\": \"support\",\n            \"type\": \"group\",\n            \"all_members_are_administrators\": true\n        },\n        \"date\": 0,\n        \"text\": content,\n        \"entities\": [\n            {\n                \"offset\": 0,\n                \"length\": 48,\n                \"type\": \"url\"\n            }\n        ]\n    },\n    \"_msgid\": \"0\",\n    \"chatId\": chatId\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 580,
-        "wires": [
-            [
-                "0dbc45f6c3d8c93e",
-                "0debb746e89c4a5f"
-            ]
-        ]
-    },
-    {
-        "id": "0debb746e89c4a5f",
-        "type": "http request",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 590,
-        "y": 580,
-        "wires": [
-            [
-                "2f8eeac7ef0890d0"
-            ]
-        ]
-    },
-    {
-        "id": "7be442840a04b2cc",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/sendLink",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 140,
-        "y": 580,
-        "wires": [
-            [
-                "b3af276fefe8f6d6"
-            ]
-        ]
-    },
-    {
-        "id": "0aba3296caa0a263",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/sendQuestion",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 150,
-        "y": 480,
-        "wires": [
-            [
-                "618a40063639d0f7"
-            ]
-        ]
-    },
-    {
-        "id": "064543a1791911d6",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 890,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "982395a83912b16e",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 750,
-        "y": 480,
-        "wires": [
-            [
-                "064543a1791911d6"
-            ]
-        ]
-    },
-    {
-        "id": "211a3df24ef3a95f",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 890,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "2f8eeac7ef0890d0",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 750,
-        "y": 580,
-        "wires": [
-            [
-                "211a3df24ef3a95f"
-            ]
-        ]
-    },
-    {
-        "id": "d509aaed97f4f52b",
-        "type": "mongodb out",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 670,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "0dbc45f6c3d8c93e",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "insert in DB",
-        "func": "msg.collection = 'customSupportChatContent'\nmsg.payload={\n    ...msg.forBase,\n    type: 'link',\n    deleted: false\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 620,
-        "wires": [
-            [
-                "d509aaed97f4f52b"
-            ]
-        ]
-    },
-    {
-        "id": "a9c5b85d5e8e1b81",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "insert in DB",
-        "func": "msg.collection = 'customSupportChatContent'\nmsg.payload={\n    ...msg.forBase,\n    type: 'faq',\n    deleted: false\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 520,
-        "wires": [
-            [
-                "d4bc55761c1ad0d5"
-            ]
-        ]
-    },
-    {
-        "id": "d4bc55761c1ad0d5",
-        "type": "mongodb out",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 670,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "54914abb2852c2c1",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/sendCredentials",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 160,
-        "y": 820,
-        "wires": [
-            [
-                "954dcad95a45174f"
-            ]
-        ]
-    },
-    {
-        "id": "954dcad95a45174f",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "insert in DB",
-        "func": "msg.collection = 'customSupportChatENV'\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 820,
-        "wires": [
-            [
-                "23c7940c97ab3484",
-                "4cb26473f0e563f2"
-            ]
-        ]
-    },
-    {
-        "id": "4cb26473f0e563f2",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 800,
-        "wires": [
-            [
-                "4cd6da742e40414d"
-            ]
-        ]
-    },
-    {
-        "id": "4cd6da742e40414d",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "saveENV end",
-        "statusCode": "",
-        "headers": {},
-        "x": 700,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "23c7940c97ab3484",
-        "type": "objectid",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "selectedProperty": "_id",
-        "x": 510,
-        "y": 840,
-        "wires": [
-            [
-                "8d3837a0503eedad"
-            ]
-        ]
-    },
-    {
-        "id": "8d3837a0503eedad",
-        "type": "mongodb out",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "store",
-        "x": 670,
-        "y": 840,
-        "wires": []
-    },
-    {
-        "id": "ea5fc952afbd1f80",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "query",
-        "func": "msg.collection = 'customSupportChatContent'\nlet match = {}\nlet matchBase = {}\n\nif (msg.req.query.chatId){\n    match.chatId= +msg.req.query.chatId\n    matchBase.value = msg.req.query.chatId\n}\n\nmsg.payload = [\n    {\n        $lookup: {\n            from: \"customSupportChatContent\",\n            pipeline: [\n                {\n                    $match: {\n                        ...match,\n                        deleted: false\n                    }\n                }\n            ],\n            as: \"customSupportChatContent\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatBases\",\n            pipeline: [\n                {\n                    $match: {\n                        deleted: false\n                    }\n                },\n                {\n                    $project:{\n                        label: 1,\n                        value: 1\n                    }\n                }\n            ],\n            as: \"customSupportChatBases\"\n        }\n    },\n    {\n        $lookup: {\n            from: \"customSupportChatBases\",\n            pipeline: [{\n                $match: {\n                    ...matchBase,\n                    deleted: false\n                }\n            }],\n            as: \"customSupportChatBasesInfo\"\n        }\n    },\n\n    { $limit: 1 },\n    {\n        $project: {\n            \"customSupportChatContent\": 1,\n            \"customSupportChatBases\": 1,\n            \"customSupportChatBasesInfo\": 1,\n        }\n    }\n]\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 330,
-        "y": 680,
-        "wires": [
-            [
-                "72deefa1084b6e16"
-            ]
-        ]
-    },
-    {
-        "id": "c3e86306bbe3e1e2",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/getContent",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 140,
-        "y": 680,
-        "wires": [
-            [
-                "ea5fc952afbd1f80"
-            ]
-        ]
-    },
-    {
-        "id": "72deefa1084b6e16",
-        "type": "mongodb in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "operation": "aggregate",
-        "x": 470,
-        "y": 680,
-        "wires": [
-            [
-                "a3c9fb1554c155a7"
-            ]
-        ]
-    },
-    {
-        "id": "a3c9fb1554c155a7",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "return result",
-        "func": "msg.payload = {\n    content: msg.payload[0].customSupportChatContent,\n    baseInfo: msg.payload[0].customSupportChatBasesInfo,\n    bases: msg.payload[0].customSupportChatBases,\n}\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 680,
-        "wires": [
-            [
-                "990f41175174623e"
-            ]
-        ]
-    },
-    {
-        "id": "990f41175174623e",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 750,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "2d302f1d64912215",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/createBase",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 150,
-        "y": 880,
-        "wires": [
-            [
-                "97d6c37541160413"
-            ]
-        ]
-    },
-    {
-        "id": "97d6c37541160413",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "insert in DB",
-        "func": "msg.collection = 'customSupportChatBases'\nmsg.payload={\n    ...msg.payload,\n    deleted: false\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 880,
-        "wires": [
-            [
-                "f92bc4861d7692ac",
-                "201b900ec5c83c70"
-            ]
-        ]
-    },
-    {
-        "id": "f92bc4861d7692ac",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 880,
-        "wires": [
-            [
-                "100a99cfeddc5c28"
-            ]
-        ]
-    },
-    {
-        "id": "100a99cfeddc5c28",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 670,
-        "y": 880,
-        "wires": []
-    },
-    {
-        "id": "201b900ec5c83c70",
-        "type": "mongodb out",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "insert",
-        "x": 510,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "bdcdc4b67e9734b1",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "query",
-        "func": "msg.collection = 'customSupportChatENV'\nmsg.payload={}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 330,
+        "id": "5c0e17765992d3e6",
+        "type": "debug",
+        "z": "0810a50fef13cf49",
+        "name": "to gpt",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
         "y": 740,
-        "wires": [
-            [
-                "1676bf9cd6156e83"
-            ]
-        ]
-    },
-    {
-        "id": "d7b48996c9b734b9",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/getCredentials",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 150,
-        "y": 740,
-        "wires": [
-            [
-                "bdcdc4b67e9734b1"
-            ]
-        ]
-    },
-    {
-        "id": "1676bf9cd6156e83",
-        "type": "mongodb in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "operation": "aggregate",
-        "x": 470,
-        "y": 740,
-        "wires": [
-            [
-                "d2b7a480bb6987ab"
-            ]
-        ]
-    },
-    {
-        "id": "d2b7a480bb6987ab",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "return result",
-        "func": "if (msg.payload.length == 0) {\n    msg.payload[0].customSupportChatENV = {\n        _id: ''\n    }\n} else {\n    msg.payload = msg.payload[0]\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 740,
-        "wires": [
-            [
-                "c33fee2e9e839fd3"
-            ]
-        ]
-    },
-    {
-        "id": "c33fee2e9e839fd3",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 750,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "e9724563654bb410",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/updateBase",
-        "method": "put",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 140,
-        "y": 960,
-        "wires": [
-            [
-                "d8f7026c37711f16"
-            ]
-        ]
-    },
-    {
-        "id": "d8f7026c37711f16",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "update DB",
-        "func": "msg.collection = 'customSupportChatBases'\nmsg.query ={\n    _id: objectid(msg.payload._id)\n}\ndelete msg.payload._id\nmsg.payload={\n    $set:{\n        ...msg.payload\n    }\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 350,
-        "y": 960,
-        "wires": [
-            [
-                "4427eff75bb11aeb",
-                "3c42bc57f6911107"
-            ]
-        ]
-    },
-    {
-        "id": "4427eff75bb11aeb",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 960,
-        "wires": [
-            [
-                "997496abd32aba51"
-            ]
-        ]
-    },
-    {
-        "id": "997496abd32aba51",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 670,
-        "y": 960,
-        "wires": []
-    },
-    {
-        "id": "3c42bc57f6911107",
-        "type": "mongodb out",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "update",
-        "x": 510,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "686d97837a91cf6e",
-        "type": "mongodb in",
-        "z": "7a7661f89d2855d9",
-        "g": "121cbaa6951ffc3d",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "operation": "find",
-        "x": 475,
-        "y": 280,
-        "wires": [
-            [
-                "4b8dd44dd5fbfa6f",
-                "1bae0b8d75e4851b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "5d70a7413a4903a5",
-        "type": "http in",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "url": "/deleteBase",
-        "method": "delete",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 150,
-        "y": 1040,
-        "wires": [
-            [
-                "c21beb81e5422049"
-            ]
-        ]
-    },
-    {
-        "id": "c21beb81e5422049",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "update DB",
-        "func": "msg.collection = 'customSupportChatBases'\nmsg.query ={\n    _id: objectid(msg.req.query._id)\n}\n\nmsg.payload={\n    $set:{\n        deleted: true\n    }\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 350,
-        "y": 1040,
-        "wires": [
-            [
-                "15890395f32e7671",
-                "bf1a27819589117b"
-            ]
-        ]
-    },
-    {
-        "id": "15890395f32e7671",
-        "type": "function",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "res",
-        "func": "msg.payload = {\n    success: true,\n    payload: 'Success!'\n}\nmsg.statusCode = 200\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 1040,
-        "wires": [
-            [
-                "278fdaa88c84e541"
-            ]
-        ]
-    },
-    {
-        "id": "278fdaa88c84e541",
-        "type": "http response",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 670,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "bf1a27819589117b",
-        "type": "mongodb out",
-        "z": "7a7661f89d2855d9",
-        "g": "88b6a5d9eef06a2f",
-        "mongodb": "804b53453d444541",
-        "name": "",
-        "collection": "",
-        "payonly": true,
-        "upsert": false,
-        "multi": false,
-        "operation": "update",
-        "x": 510,
-        "y": 1080,
         "wires": []
     }
 ]
