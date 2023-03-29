@@ -68,13 +68,37 @@
             "a2de51e60bf0180f",
             "a3c579f231e44bed",
             "61822712ccd02b9e",
-            "2246117a89ae4174",
-            "374ca753cd62d125"
+            "2246117a89ae4174"
         ],
         "x": 34,
         "y": 279,
-        "w": 1032,
+        "w": 1012,
         "h": 302
+    },
+    {
+        "id": "d8cfe7b1b3bf43f9",
+        "type": "group",
+        "z": "0810a50fef13cf49",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "505f8f55258170f4",
+            "408047268eb4ca17",
+            "e0d2485dc01997da",
+            "27b7a38408df90aa",
+            "c22074a6b5f02a20",
+            "239844ac394e7d3d",
+            "e4747a5ccfb01809",
+            "0eaf0ec5f00e4453",
+            "bd6556927379f58c",
+            "5c0e17765992d3e6"
+        ],
+        "x": 34,
+        "y": 599,
+        "w": 1292,
+        "h": 202
     },
     {
         "id": "664f1e7115a34974",
@@ -273,8 +297,7 @@
         "y": 320,
         "wires": [
             [
-                "7e8e339820f6bf02",
-                "374ca753cd62d125"
+                "7e8e339820f6bf02"
             ]
         ]
     },
@@ -693,7 +716,7 @@
         "z": "0810a50fef13cf49",
         "g": "5612d3dae22d78b8",
         "name": "ENV",
-        "func": "const data = msg.payload\nconst filterHtmlTags = (text) => {\n    // Remove all HTML tags except for <br> and <br/>\n    const filteredText = text.replace(/<(?!br\\s*\\/?)[^>]+>/gi, '');\n    // Replace <br> and <br/> tags with newline characters\n    return filteredText.replace(/<br\\s*\\/?>/gi, '\\n');\n}\n\n\ndata.welcomeMessage = filterHtmlTags(data.welcomeMessage)\nlet content = {\n    WELCOME_MSG: data.welcomeMessage,\n    INSTRUCTIONS: data.instrictions\n}\n\nglobal.set(\"content\", content)\nreturn msg;",
+        "func": "const data = msg.payload\nconst filterHtmlTags = (text) => {\n    // Remove all HTML tags except for <br> and <br/>\n    const filteredText = text.replace(/<(?!br\\s*\\/?)[^>]+>/gi, '');\n    // Replace <br> and <br/> tags with newline characters\n    return filteredText.replace(/<br\\s*\\/?>/gi, '\\n');\n}\n\n\ndata.welcomeMessage = filterHtmlTags(data.welcomeMessage)\nlet content = {\n    WELCOME_MSG: data.welcomeMessage,\n    INSTRUCTIONS: data.insturctions\n}\n\nglobal.set(\"content\", content)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -783,33 +806,16 @@
         "l": false
     },
     {
-        "id": "374ca753cd62d125",
-        "type": "debug",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
-        "name": "insert",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 360,
-        "wires": []
-    },
-    {
         "id": "505f8f55258170f4",
         "type": "telegram receiver",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "",
         "bot": "664f1e7115a34974",
         "saveDataDir": "",
         "filterCommands": false,
         "x": 150,
-        "y": 660,
+        "y": 680,
         "wires": [
             [
                 "408047268eb4ca17"
@@ -821,15 +827,16 @@
         "id": "408047268eb4ca17",
         "type": "function",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "check command",
-        "func": "if (msg.payload.content === '/start'){\n    return [msg, null]\n}else{\n    return [null, msg]\n}",
+        "func": "msg.fromTG = msg.payload\nif (msg.payload.content === '/start'){\n    return [msg, null]\n}else{\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 360,
-        "y": 640,
+        "y": 680,
         "wires": [
             [
                 "27b7a38408df90aa"
@@ -843,12 +850,13 @@
         "id": "e0d2485dc01997da",
         "type": "telegram sender",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "",
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
         "x": 730,
-        "y": 620,
+        "y": 640,
         "wires": [
             []
         ]
@@ -857,15 +865,16 @@
         "id": "27b7a38408df90aa",
         "type": "function",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "/start",
-        "func": "msg.payload.content = global.get('content').WELCOME_MSG\n\nglobal.set('history', [{ role: 'user', message: `${global.get('content').CONTENT}`}])\n\nreturn msg;",
+        "func": "msg.payload.content = global.get('content').WELCOME_MSG\n\nglobal.set(`history${msg.fromTG.chatId}`, [{ role: 'system', content: `${global.get('content').INSTRUCTIONS}` }, { role: 'assistant', content: `${global.get('content').WELCOME_MSG}`}])\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 530,
-        "y": 620,
+        "y": 640,
         "wires": [
             [
                 "e0d2485dc01997da"
@@ -876,15 +885,16 @@
         "id": "c22074a6b5f02a20",
         "type": "function",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "to ChatGPT",
-        "func": "///save response from Carlos\nmsg.fromTG = msg.payload\n\n//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.fromTG.content;\nlet history = global.get('history') || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...history,\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set('history', history);\nglobal.set('sent', false)\n\nreturn msg;\n",
+        "func": "//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.fromTG.content;\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...history,\n        { \"role\": \"user\", \"content\": content}\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set(`history${msg.fromTG.chatId}`, history);\nglobal.set('sent', false)\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 550,
-        "y": 680,
+        "y": 720,
         "wires": [
             [
                 "239844ac394e7d3d",
@@ -896,6 +906,7 @@
         "id": "239844ac394e7d3d",
         "type": "http request",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "ChatGPT",
         "method": "POST",
         "ret": "obj",
@@ -909,7 +920,7 @@
         "senderr": false,
         "headers": [],
         "x": 720,
-        "y": 680,
+        "y": 720,
         "wires": [
             [
                 "0eaf0ec5f00e4453",
@@ -921,12 +932,13 @@
         "id": "e4747a5ccfb01809",
         "type": "telegram sender",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "",
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
         "x": 1210,
-        "y": 680,
+        "y": 700,
         "wires": [
             []
         ]
@@ -935,15 +947,16 @@
         "id": "0eaf0ec5f00e4453",
         "type": "function",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "send to user from chat",
-        "func": "const responseChatGPT = msg.payload.choices[0].message.content\nlet history = global.get('history') || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": responseChatGPT });\n    global.set('history', history);\n    return msg;\n}",
+        "func": "const responseChatGPT = msg.payload.choices[0].message.content\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": responseChatGPT });\n    global.set(`history${msg.fromTG.chatId}`, history);\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 960,
-        "y": 680,
+        "y": 720,
         "wires": [
             [
                 "e4747a5ccfb01809",
@@ -955,6 +968,7 @@
         "id": "bd6556927379f58c",
         "type": "debug",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "from chatGPT",
         "active": true,
         "tosidebar": true,
@@ -965,13 +979,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1200,
-        "y": 720,
+        "y": 740,
         "wires": []
     },
     {
         "id": "5c0e17765992d3e6",
         "type": "debug",
         "z": "0810a50fef13cf49",
+        "g": "d8cfe7b1b3bf43f9",
         "name": "to gpt",
         "active": true,
         "tosidebar": true,
@@ -982,7 +997,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 830,
-        "y": 740,
+        "y": 760,
         "wires": []
     }
 ]
