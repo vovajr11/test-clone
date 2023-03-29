@@ -101,7 +101,7 @@
         ],
         "x": 34,
         "y": 659,
-        "w": 1172,
+        "w": 1152,
         "h": 162
     },
     {
@@ -820,7 +820,7 @@
         "bot": "664f1e7115a34974",
         "saveDataDir": "",
         "filterCommands": false,
-        "x": 150,
+        "x": 140,
         "y": 760,
         "wires": [
             [
@@ -841,7 +841,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 350,
         "y": 740,
         "wires": [
             [
@@ -861,7 +861,7 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 690,
+        "x": 680,
         "y": 700,
         "wires": [
             []
@@ -879,7 +879,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 530,
+        "x": 520,
         "y": 700,
         "wires": [
             [
@@ -899,7 +899,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 540,
         "y": 780,
         "wires": [
             [
@@ -924,7 +924,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 700,
+        "x": 690,
         "y": 780,
         "wires": [
             [
@@ -941,7 +941,7 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 1090,
+        "x": 1080,
         "y": 780,
         "wires": [
             []
@@ -959,7 +959,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
+        "x": 870,
         "y": 780,
         "wires": [
             [
