@@ -1,5 +1,6 @@
 {
     "664f1e7115a34974": {
         "token": "{global.get('process_env').BOT_TOKEN}"
-    }
+    },
+    "42099951cb904eee": {}
 }

@@ -73,7 +73,8 @@
             "7df1a8d4db5f3d5d",
             "279304c387ada3b7",
             "b13158015337220b",
-            "3b936abd32e97b4b"
+            "3b936abd32e97b4b",
+            "8f0e31516c4db109"
         ],
         "x": 34,
         "y": 279,
@@ -101,8 +102,31 @@
         ],
         "x": 34,
         "y": 659,
-        "w": 1152,
+        "w": 1172,
         "h": 162
+    },
+    {
+        "id": "c3aa41f4486e51cb",
+        "type": "group",
+        "z": "0810a50fef13cf49",
+        "name": "Demo",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "e221b81f0e31d907",
+            "42099951cb904eee",
+            "50206bae63b302e0",
+            "04d5a079f27b1563",
+            "fe8cf5698e285ddd",
+            "ecd24978770ec51f",
+            "98045917b6a2a57f"
+        ],
+        "x": 34,
+        "y": 839,
+        "w": 1092,
+        "h": 142
     },
     {
         "id": "664f1e7115a34974",
@@ -251,7 +275,7 @@
         "z": "0810a50fef13cf49",
         "g": "92b1bb103a4ae997",
         "name": "set filename",
-        "func": "msg.filename = 'credentials.json'\n\nreturn msg;",
+        "func": "msg.filename = 'credentials.json'\nmsg.payload = { \n    \"bot_name\": \"CustomerSupportChatGPTBot\", \n    \"bot_token\": \"6289221273:AAHDRRPbDrLeOED9JUpfYQmke2c5aAO2aIY\", \n    \"openai_api\": \"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\" \n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -261,7 +285,8 @@
         "y": 320,
         "wires": [
             [
-                "0d585bffe8de4476"
+                "0d585bffe8de4476",
+                "8f0e31516c4db109"
             ]
         ]
     },
@@ -660,7 +685,7 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 460,
+        "x": 480,
         "y": 120,
         "wires": [
             [
@@ -820,8 +845,8 @@
         "bot": "664f1e7115a34974",
         "saveDataDir": "",
         "filterCommands": false,
-        "x": 140,
-        "y": 760,
+        "x": 150,
+        "y": 740,
         "wires": [
             [
                 "408047268eb4ca17"
@@ -841,7 +866,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
+        "x": 360,
         "y": 740,
         "wires": [
             [
@@ -861,7 +886,7 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 680,
+        "x": 710,
         "y": 700,
         "wires": [
             []
@@ -879,7 +904,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
+        "x": 530,
         "y": 700,
         "wires": [
             [
@@ -899,7 +924,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
+        "x": 550,
         "y": 780,
         "wires": [
             [
@@ -924,7 +949,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 690,
+        "x": 700,
         "y": 780,
         "wires": [
             [
@@ -941,7 +966,7 @@
         "bot": "664f1e7115a34974",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 1080,
+        "x": 1090,
         "y": 780,
         "wires": [
             []
@@ -959,7 +984,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
+        "x": 880,
         "y": 780,
         "wires": [
             [
@@ -1077,5 +1102,161 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "e221b81f0e31d907",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "c3aa41f4486e51cb",
+        "name": "to ChatGPT",
+        "func": "//set variables\nconst api_key = global.get('process_env').OPENAI_API;\n\nconst content = msg.payload.content;\nlet historyForGPT = global.get(`historyDemo`) || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...historyForGPT,\n        { \"role\": \"user\", \"content\": content}\n    ]\n}\n\nglobal.set(`historyDemo`, msg.payload.messages);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 940,
+        "wires": [
+            [
+                "42099951cb904eee"
+            ]
+        ]
+    },
+    {
+        "id": "42099951cb904eee",
+        "type": "http request",
+        "z": "0810a50fef13cf49",
+        "g": "c3aa41f4486e51cb",
+        "name": "ChatGPT",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 680,
+        "y": 940,
+        "wires": [
+            [
+                "50206bae63b302e0"
+            ]
+        ]
+    },
+    {
+        "id": "50206bae63b302e0",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "c3aa41f4486e51cb",
+        "name": "send to user from chat",
+        "func": "const responseChatGPT = msg.payload.choices[0].message.content;\nconst history = global.get(`historyDemo`) || [];\nhistory.push({ \"role\": \"assistant\", \"content\": responseChatGPT })\nglobal.set(`historyDemo`, history);\n\n\nhistory[0] = {\n    role: 'user',\n    content: '/start'\n}\n\nconst conversation = history.map(e => ({ content: e.content.replace(/\\n/g, '')}));\nmsg.payload = conversation\n\n\n/*\nmsg.payload = history.map(e => {\n    if (e.role == 'user') {\n        return `User: ${e.content}`\n    } else {\n        return `AI: ${e.content}`\n    }\n}).join('\\n\\n')*/\n\n\n//const history = history.concat({\"text\": responseChatGPT });\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 940,
+        "wires": [
+            [
+                "fe8cf5698e285ddd"
+            ]
+        ]
+    },
+    {
+        "id": "04d5a079f27b1563",
+        "type": "http in",
+        "z": "0810a50fef13cf49",
+        "g": "c3aa41f4486e51cb",
+        "name": "",
+        "url": "/demo",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 900,
+        "wires": [
+            [
+                "ecd24978770ec51f"
+            ]
+        ]
+    },
+    {
+        "id": "fe8cf5698e285ddd",
+        "type": "http response",
+        "z": "0810a50fef13cf49",
+        "g": "c3aa41f4486e51cb",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1050,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "ecd24978770ec51f",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "c3aa41f4486e51cb",
+        "name": "check command",
+        "func": "if (msg.payload.content.includes('/start')){\n    return [msg, null]\n}else{\n    return [null, msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 900,
+        "wires": [
+            [
+                "98045917b6a2a57f"
+            ],
+            [
+                "e221b81f0e31d907"
+            ]
+        ]
+    },
+    {
+        "id": "98045917b6a2a57f",
+        "type": "function",
+        "z": "0810a50fef13cf49",
+        "g": "c3aa41f4486e51cb",
+        "name": "/start",
+        "func": "msg.payload = [{ content: '/start' }, { content: global.get('content').WELCOME_MSG}]\n\nglobal.set(`historyDemo`, [{ role: 'system', content: `${global.get('content').INSTRUCTIONS}` }, { role: 'assistant', content: `${global.get('content').WELCOME_MSG}`}])\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 880,
+        "wires": [
+            [
+                "fe8cf5698e285ddd"
+            ]
+        ]
+    },
+    {
+        "id": "8f0e31516c4db109",
+        "type": "debug",
+        "z": "0810a50fef13cf49",
+        "g": "92b1bb103a4ae997",
+        "name": "env",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 360,
+        "wires": []
     }
 ]
