@@ -1,6 +1,6 @@
 [
     {
-        "id": "0810a50fef13cf49",
+        "id": "9e669e5ed5a2dd65",
         "type": "tab",
         "label": "Logic",
         "disabled": false,
@@ -8,27 +8,27 @@
         "env": []
     },
     {
-        "id": "5612d3dae22d78b8",
+        "id": "799b2714689c52e7",
         "type": "group",
-        "z": "0810a50fef13cf49",
+        "z": "9e669e5ed5a2dd65",
         "name": "Global",
         "style": {
             "stroke": "#92d04f",
             "label": true
         },
         "nodes": [
-            "bf3324c4df8120cc",
-            "e971752f4e86f0b9",
-            "7a31c48629f14a8f",
-            "d49204b7b290b644",
-            "384fec5fbcdafdf7",
-            "5d06e16571102535",
-            "cb546fbc64ee6dab",
-            "dead81051b36fc0b",
-            "908b6f805b1030a8",
-            "e63e3dffa7bda353",
-            "d55c23f5b4fc284c",
-            "a67b265e4b0bc024"
+            "77180feaff4d5130",
+            "8d63d1f942513785",
+            "e40e28f78177c084",
+            "152abbb1a32b6e9a",
+            "a71380698545bfba",
+            "cccf876a7687d60e",
+            "71ccf33bbbf63800",
+            "20587a1a488be3fa",
+            "7d074ce8d581dc21",
+            "cfca5f7ee9f39ce2",
+            "60d9ccd74b3d5f01",
+            "0861f8ee76b43a91"
         ],
         "x": 34,
         "y": 59,
@@ -36,45 +36,43 @@
         "h": 202
     },
     {
-        "id": "92b1bb103a4ae997",
+        "id": "17965c4b9f2a83c3",
         "type": "group",
-        "z": "0810a50fef13cf49",
+        "z": "9e669e5ed5a2dd65",
         "name": "FromAdmin",
         "style": {
             "stroke": "#0070c0",
             "label": true
         },
         "nodes": [
-            "5b5d01f9d9bb1fcd",
-            "7e8e339820f6bf02",
-            "1f7cea1f1b360c17",
-            "7d287905b0c8d296",
-            "29ecc33c52081212",
-            "343a090bacfb6d12",
-            "566df61d2466e4b1",
-            "dd6ebbd36fcf0ae4",
-            "48eaba405fc7de76",
-            "0d585bffe8de4476",
-            "94ce6eb7b6fc6ca2",
-            "eac4b616e30ed292",
-            "da2ddbf7783194bd",
-            "d89b83fe9df91f34",
-            "f053f373371e31b2",
-            "dfd249ba3110bb72",
-            "1594043f60dfb0cd",
-            "753902af7e12e4b2",
-            "6e9a5a32adfc4155",
-            "d50742feb64f5c95",
-            "a2de51e60bf0180f",
-            "a3c579f231e44bed",
-            "61822712ccd02b9e",
-            "2246117a89ae4174",
-            "76119660bc029cb1",
-            "7df1a8d4db5f3d5d",
-            "279304c387ada3b7",
-            "b13158015337220b",
-            "3b936abd32e97b4b",
-            "8f0e31516c4db109"
+            "876ca2a327bbf742",
+            "4fbea48f5fcac951",
+            "1597a5bfc8b290dd",
+            "cab0a4cf864ec59a",
+            "682fd7e93e8fc114",
+            "d3eed86c91985361",
+            "09a0b63bfe2f9446",
+            "e1e8004ec44efff9",
+            "6b282a5cf59047e7",
+            "10eac66d955f5767",
+            "1105a126875d3f23",
+            "7b7a917b5834de34",
+            "2ae4172c5dd7168e",
+            "50d817cb7369edd3",
+            "305cfab9683c882d",
+            "1659225c58a2b8ab",
+            "f40ecfa286fb73f8",
+            "ff109eead4511781",
+            "df2a1ab13eaea41e",
+            "753af792a60ccefd",
+            "a4e2566ba24aa781",
+            "275457d43ea42730",
+            "4f37e869cdf617e0",
+            "39029260de6af61e",
+            "c9ef96841114bd54",
+            "1935934b4e85e6d0",
+            "e8932bcdc24b40b4",
+            "e849e62835a29646"
         ],
         "x": 34,
         "y": 279,
@@ -82,50 +80,74 @@
         "h": 362
     },
     {
-        "id": "d8cfe7b1b3bf43f9",
+        "id": "6abd0468fa0eb05f",
         "type": "group",
-        "z": "0810a50fef13cf49",
+        "z": "9e669e5ed5a2dd65",
         "name": "Telegram",
         "style": {
             "label": true,
             "stroke": "#6f2fa0"
         },
         "nodes": [
-            "505f8f55258170f4",
-            "408047268eb4ca17",
-            "e0d2485dc01997da",
-            "27b7a38408df90aa",
-            "c22074a6b5f02a20",
-            "239844ac394e7d3d",
-            "e4747a5ccfb01809",
-            "0eaf0ec5f00e4453"
+            "207452c206175db4",
+            "d6d765afce457014",
+            "ab90216c2ae6e11d",
+            "63754cfcec88b374",
+            "ad170c2e86c27030",
+            "11b2638e9536d230",
+            "f95e06ae225e6a94",
+            "8f9c85e145e4bf38",
+            "90d7c105a2800509"
         ],
         "x": 34,
         "y": 659,
-        "w": 1172,
-        "h": 162
+        "w": 1312,
+        "h": 142
     },
     {
-        "id": "c3aa41f4486e51cb",
+        "id": "8a7cfdf064b038c2",
         "type": "group",
-        "z": "0810a50fef13cf49",
+        "z": "9e669e5ed5a2dd65",
         "name": "Demo",
         "style": {
             "stroke": "#ffC000",
             "label": true
         },
         "nodes": [
-            "e221b81f0e31d907",
-            "42099951cb904eee",
-            "50206bae63b302e0",
-            "04d5a079f27b1563",
-            "fe8cf5698e285ddd",
-            "ecd24978770ec51f",
-            "98045917b6a2a57f"
+            "71c998ce734f0f5a",
+            "c09c22fe123e75df",
+            "da1f9c67b7e5ebad",
+            "69dde419548f29fd",
+            "9b6f914c73aa4ccd",
+            "3cba732b968ed1c9",
+            "76f1ed83e535349c"
         ],
         "x": 34,
-        "y": 839,
+        "y": 819,
         "w": 1092,
+        "h": 142
+    },
+    {
+        "id": "358625d2fca13e88",
+        "type": "group",
+        "z": "9e669e5ed5a2dd65",
+        "name": "History of conversation",
+        "style": {
+            "label": true,
+            "stroke": "#ff0000"
+        },
+        "nodes": [
+            "4da3d1084865862f",
+            "d6395fb4748d1ebc",
+            "eaff589e72bcdafc",
+            "3003b7b6b8c27e44",
+            "2aecefea8e7b8ef1",
+            "6e2ed4604324edd6",
+            "e6590abc5860c593"
+        ],
+        "x": 34,
+        "y": 979,
+        "w": 672,
         "h": 142
     },
     {
@@ -154,10 +176,10 @@
         "verboselogging": false
     },
     {
-        "id": "bf3324c4df8120cc",
+        "id": "77180feaff4d5130",
         "type": "inject",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "props": [
             {
@@ -179,17 +201,17 @@
         "y": 140,
         "wires": [
             [
-                "d49204b7b290b644"
+                "152abbb1a32b6e9a"
             ]
         ]
     },
     {
-        "id": "e971752f4e86f0b9",
+        "id": "8d63d1f942513785",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name,\n    BOT_TOKEN: data.bot_token,\n    OPENAI_API: data.openai_api\n}\n\nglobal.set(\"process_env\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name,\n    BOT_TOKEN: data.bot_token,\n    OPENAI_API: data.openai_api,\n    IS_LIMIT: data.is_limit,\n    LIMIT: +data.limit\n}\n\nglobal.set(\"process_env\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -202,30 +224,30 @@
         ]
     },
     {
-        "id": "7a31c48629f14a8f",
+        "id": "e40e28f78177c084",
         "type": "complete",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "scope": [
-            "7e8e339820f6bf02"
+            "4fbea48f5fcac951"
         ],
         "uncaught": false,
         "x": 130,
         "y": 100,
         "wires": [
             [
-                "d49204b7b290b644"
+                "152abbb1a32b6e9a"
             ]
         ]
     },
     {
-        "id": "d49204b7b290b644",
+        "id": "152abbb1a32b6e9a",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "getEnvs",
-        "func": "msg.filename = 'credentials.json'\nreturn msg;",
+        "func": "msg.filename = '/data/credentials.json'\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -235,15 +257,15 @@
         "y": 120,
         "wires": [
             [
-                "384fec5fbcdafdf7"
+                "a71380698545bfba"
             ]
         ]
     },
     {
-        "id": "5b5d01f9d9bb1fcd",
+        "id": "876ca2a327bbf742",
         "type": "http in",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "url": "/saveCredentials",
         "method": "post",
@@ -253,15 +275,15 @@
         "y": 320,
         "wires": [
             [
-                "1f7cea1f1b360c17"
+                "1597a5bfc8b290dd"
             ]
         ]
     },
     {
-        "id": "7e8e339820f6bf02",
+        "id": "4fbea48f5fcac951",
         "type": "http response",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "saveCredentials",
         "statusCode": "",
         "headers": {},
@@ -270,12 +292,12 @@
         "wires": []
     },
     {
-        "id": "1f7cea1f1b360c17",
+        "id": "1597a5bfc8b290dd",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "set filename",
-        "func": "msg.filename = 'credentials.json'\nmsg.payload = { \n    \"bot_name\": \"CustomerSupportChatGPTBot\", \n    \"bot_token\": \"6289221273:AAHDRRPbDrLeOED9JUpfYQmke2c5aAO2aIY\", \n    \"openai_api\": \"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\" \n}\nreturn msg;",
+        "func": "msg.filename = '/data/credentials.json'\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -285,16 +307,15 @@
         "y": 320,
         "wires": [
             [
-                "0d585bffe8de4476",
-                "8f0e31516c4db109"
+                "10eac66d955f5767"
             ]
         ]
     },
     {
-        "id": "7d287905b0c8d296",
+        "id": "cab0a4cf864ec59a",
         "type": "file",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "filename": "filename",
         "filenameType": "msg",
@@ -306,15 +327,15 @@
         "y": 320,
         "wires": [
             [
-                "29ecc33c52081212"
+                "682fd7e93e8fc114"
             ]
         ]
     },
     {
-        "id": "29ecc33c52081212",
+        "id": "682fd7e93e8fc114",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "return res",
         "func": "msg.payload={\n    success: true,\n    payload: \"Success!\"\n}\nmsg.statusCode = 200\n\nreturn msg;",
         "outputs": 1,
@@ -326,45 +347,45 @@
         "y": 320,
         "wires": [
             [
-                "7e8e339820f6bf02"
+                "4fbea48f5fcac951"
             ]
         ]
     },
     {
-        "id": "343a090bacfb6d12",
+        "id": "d3eed86c91985361",
         "type": "http in",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "url": "/saveContent",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
-                "1594043f60dfb0cd"
+                "f40ecfa286fb73f8"
             ]
         ]
     },
     {
-        "id": "566df61d2466e4b1",
+        "id": "09a0b63bfe2f9446",
         "type": "http response",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "saveContent",
         "statusCode": "",
         "headers": {},
-        "x": 930,
-        "y": 380,
+        "x": 950,
+        "y": 400,
         "wires": []
     },
     {
-        "id": "dd6ebbd36fcf0ae4",
+        "id": "e1e8004ec44efff9",
         "type": "file",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "filename": "filename",
         "filenameType": "msg",
@@ -373,18 +394,18 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 640,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
-                "48eaba405fc7de76"
+                "6b282a5cf59047e7"
             ]
         ]
     },
     {
-        "id": "48eaba405fc7de76",
+        "id": "6b282a5cf59047e7",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "return res",
         "func": "msg.payload={\n    success: true,\n    payload: \"Success!\"\n}\nmsg.statusCode = 200\n\nreturn msg;",
         "outputs": 1,
@@ -392,19 +413,19 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 380,
+        "x": 800,
+        "y": 400,
         "wires": [
             [
-                "566df61d2466e4b1"
+                "09a0b63bfe2f9446"
             ]
         ]
     },
     {
-        "id": "0d585bffe8de4476",
+        "id": "10eac66d955f5767",
         "type": "json",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "property": "payload",
         "action": "",
@@ -413,15 +434,15 @@
         "y": 320,
         "wires": [
             [
-                "7d287905b0c8d296"
+                "cab0a4cf864ec59a"
             ]
         ]
     },
     {
-        "id": "94ce6eb7b6fc6ca2",
+        "id": "1105a126875d3f23",
         "type": "file in",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "filename": "filename",
         "filenameType": "msg",
@@ -434,15 +455,15 @@
         "y": 480,
         "wires": [
             [
-                "eac4b616e30ed292"
+                "7b7a917b5834de34"
             ]
         ]
     },
     {
-        "id": "eac4b616e30ed292",
+        "id": "7b7a917b5834de34",
         "type": "json",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "property": "payload",
         "action": "",
@@ -451,15 +472,15 @@
         "y": 480,
         "wires": [
             [
-                "f053f373371e31b2"
+                "305cfab9683c882d"
             ]
         ]
     },
     {
-        "id": "da2ddbf7783194bd",
+        "id": "2ae4172c5dd7168e",
         "type": "http in",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "url": "/getCredentials",
         "method": "get",
@@ -469,15 +490,15 @@
         "y": 480,
         "wires": [
             [
-                "dfd249ba3110bb72"
+                "1659225c58a2b8ab"
             ]
         ]
     },
     {
-        "id": "d89b83fe9df91f34",
+        "id": "50d817cb7369edd3",
         "type": "http response",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -486,10 +507,10 @@
         "wires": []
     },
     {
-        "id": "f053f373371e31b2",
+        "id": "305cfab9683c882d",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "return res",
         "func": "msg.statusCode = 200\nglobal.set('isCredentialsSent', true)\n\nreturn msg;",
         "outputs": 1,
@@ -501,17 +522,17 @@
         "y": 480,
         "wires": [
             [
-                "d89b83fe9df91f34"
+                "50d817cb7369edd3"
             ]
         ]
     },
     {
-        "id": "dfd249ba3110bb72",
+        "id": "1659225c58a2b8ab",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "set filename",
-        "func": "msg.filename = 'credentials.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
+        "func": "msg.filename = '/data/credentials.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -521,53 +542,53 @@
         "y": 480,
         "wires": [
             [
-                "94ce6eb7b6fc6ca2",
-                "b13158015337220b"
+                "1105a126875d3f23",
+                "e849e62835a29646"
             ]
         ]
     },
     {
-        "id": "1594043f60dfb0cd",
+        "id": "f40ecfa286fb73f8",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "set filename",
-        "func": "msg.filename = 'content.json'\n\nreturn msg;",
+        "func": "msg.filename = '/data/content.json'\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 380,
+        "x": 350,
+        "y": 400,
         "wires": [
             [
-                "753902af7e12e4b2"
+                "ff109eead4511781"
             ]
         ]
     },
     {
-        "id": "753902af7e12e4b2",
+        "id": "ff109eead4511781",
         "type": "json",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "property": "payload",
         "action": "",
         "pretty": false,
         "x": 510,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
-                "dd6ebbd36fcf0ae4"
+                "e1e8004ec44efff9"
             ]
         ]
     },
     {
-        "id": "6e9a5a32adfc4155",
+        "id": "df2a1ab13eaea41e",
         "type": "file in",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "filename": "filename",
         "filenameType": "msg",
@@ -580,15 +601,15 @@
         "y": 560,
         "wires": [
             [
-                "d50742feb64f5c95"
+                "753af792a60ccefd"
             ]
         ]
     },
     {
-        "id": "d50742feb64f5c95",
+        "id": "753af792a60ccefd",
         "type": "json",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "property": "payload",
         "action": "",
@@ -597,15 +618,15 @@
         "y": 560,
         "wires": [
             [
-                "61822712ccd02b9e"
+                "4f37e869cdf617e0"
             ]
         ]
     },
     {
-        "id": "a2de51e60bf0180f",
+        "id": "a4e2566ba24aa781",
         "type": "http in",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "url": "/getContent",
         "method": "get",
@@ -615,15 +636,15 @@
         "y": 560,
         "wires": [
             [
-                "2246117a89ae4174"
+                "39029260de6af61e"
             ]
         ]
     },
     {
-        "id": "a3c579f231e44bed",
+        "id": "275457d43ea42730",
         "type": "http response",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -632,10 +653,10 @@
         "wires": []
     },
     {
-        "id": "61822712ccd02b9e",
+        "id": "4f37e869cdf617e0",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "return res",
         "func": "msg.statusCode = 200\nglobal.set('isContentSent', true)\nreturn msg;",
         "outputs": 1,
@@ -647,17 +668,17 @@
         "y": 560,
         "wires": [
             [
-                "a3c579f231e44bed"
+                "275457d43ea42730"
             ]
         ]
     },
     {
-        "id": "2246117a89ae4174",
+        "id": "39029260de6af61e",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "set filename",
-        "func": "msg.filename = 'content.json'\nglobal.set('isContentSent', false)\nreturn msg;",
+        "func": "msg.filename = '/data/content.json'\nglobal.set('isContentSent', false)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -667,16 +688,16 @@
         "y": 560,
         "wires": [
             [
-                "6e9a5a32adfc4155",
-                "7df1a8d4db5f3d5d"
+                "df2a1ab13eaea41e",
+                "1935934b4e85e6d0"
             ]
         ]
     },
     {
-        "id": "384fec5fbcdafdf7",
+        "id": "a71380698545bfba",
         "type": "file in",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "filename": "filename",
         "filenameType": "msg",
@@ -689,15 +710,15 @@
         "y": 120,
         "wires": [
             [
-                "5d06e16571102535"
+                "cccf876a7687d60e"
             ]
         ]
     },
     {
-        "id": "5d06e16571102535",
+        "id": "cccf876a7687d60e",
         "type": "json",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "property": "payload",
         "action": "",
@@ -706,16 +727,16 @@
         "y": 120,
         "wires": [
             [
-                "e971752f4e86f0b9"
+                "8d63d1f942513785"
             ]
         ],
         "l": false
     },
     {
-        "id": "dead81051b36fc0b",
+        "id": "20587a1a488be3fa",
         "type": "inject",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "props": [
             {
@@ -737,15 +758,15 @@
         "y": 220,
         "wires": [
             [
-                "908b6f805b1030a8"
+                "7d074ce8d581dc21"
             ]
         ]
     },
     {
-        "id": "a67b265e4b0bc024",
+        "id": "0861f8ee76b43a91",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "ENV",
         "func": "const data = msg.payload\nconst filterHtmlTags = (text) => {\n    // Remove all HTML tags except for <br> and <br/>\n    const filteredText = text.replace(/<(?!br\\s*\\/?)[^>]+>/gi, '');\n    // Replace <br> and <br/> tags with newline characters\n    return filteredText.replace(/<br\\s*\\/?>/gi, '\\n');\n}\n\n\ndata.welcomeMessage = filterHtmlTags(data.welcomeMessage)\nlet content = {\n    WELCOME_MSG: data.welcomeMessage,\n    INSTRUCTIONS: data.insturctions\n}\n\nglobal.set(\"content\", content)\nreturn msg;",
         "outputs": 1,
@@ -760,30 +781,30 @@
         ]
     },
     {
-        "id": "cb546fbc64ee6dab",
+        "id": "71ccf33bbbf63800",
         "type": "complete",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "scope": [
-            "566df61d2466e4b1"
+            "09a0b63bfe2f9446"
         ],
         "uncaught": false,
         "x": 130,
         "y": 180,
         "wires": [
             [
-                "908b6f805b1030a8"
+                "7d074ce8d581dc21"
             ]
         ]
     },
     {
-        "id": "908b6f805b1030a8",
+        "id": "7d074ce8d581dc21",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "getContent",
-        "func": "msg.filename = 'content.json'\nreturn msg;",
+        "func": "msg.filename = '/data/content.json'\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -793,15 +814,15 @@
         "y": 200,
         "wires": [
             [
-                "e63e3dffa7bda353"
+                "cfca5f7ee9f39ce2"
             ]
         ]
     },
     {
-        "id": "e63e3dffa7bda353",
+        "id": "cfca5f7ee9f39ce2",
         "type": "file in",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "filename": "filename",
         "filenameType": "msg",
@@ -814,15 +835,15 @@
         "y": 200,
         "wires": [
             [
-                "d55c23f5b4fc284c"
+                "60d9ccd74b3d5f01"
             ]
         ]
     },
     {
-        "id": "d55c23f5b4fc284c",
+        "id": "60d9ccd74b3d5f01",
         "type": "json",
-        "z": "0810a50fef13cf49",
-        "g": "5612d3dae22d78b8",
+        "z": "9e669e5ed5a2dd65",
+        "g": "799b2714689c52e7",
         "name": "",
         "property": "payload",
         "action": "",
@@ -831,34 +852,16 @@
         "y": 200,
         "wires": [
             [
-                "a67b265e4b0bc024"
+                "0861f8ee76b43a91"
             ]
         ],
         "l": false
     },
     {
-        "id": "505f8f55258170f4",
-        "type": "telegram receiver",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
-        "name": "",
-        "bot": "664f1e7115a34974",
-        "saveDataDir": "",
-        "filterCommands": false,
-        "x": 150,
-        "y": 740,
-        "wires": [
-            [
-                "408047268eb4ca17"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "408047268eb4ca17",
+        "id": "d6d765afce457014",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
         "name": "check command",
         "func": "msg.fromTG = msg.payload\nif (msg.payload.content === '/start'){\n    return [msg, null]\n}else{\n    return [null, msg]\n}",
         "outputs": 2,
@@ -867,36 +870,21 @@
         "finalize": "",
         "libs": [],
         "x": 360,
-        "y": 740,
+        "y": 720,
         "wires": [
             [
-                "27b7a38408df90aa"
+                "63754cfcec88b374"
             ],
             [
-                "c22074a6b5f02a20"
+                "90d7c105a2800509"
             ]
         ]
     },
     {
-        "id": "e0d2485dc01997da",
-        "type": "telegram sender",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
-        "name": "",
-        "bot": "664f1e7115a34974",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 710,
-        "y": 700,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "27b7a38408df90aa",
+        "id": "63754cfcec88b374",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
         "name": "/start",
         "func": "msg.payload.content = global.get('content').WELCOME_MSG\n\nglobal.set(`history${msg.fromTG.chatId}`, [{ role: 'system', content: `${global.get('content').INSTRUCTIONS}` }, { role: 'assistant', content: `${global.get('content').WELCOME_MSG}`}])\n\nreturn msg;",
         "outputs": 1,
@@ -904,39 +892,39 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 530,
+        "x": 510,
         "y": 700,
         "wires": [
             [
-                "e0d2485dc01997da"
+                "ab90216c2ae6e11d"
             ]
         ]
     },
     {
-        "id": "c22074a6b5f02a20",
+        "id": "ad170c2e86c27030",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
         "name": "to ChatGPT",
-        "func": "//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.fromTG.content;\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...history,\n        { \"role\": \"user\", \"content\": content}\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set(`history${msg.fromTG.chatId}`, history);\nglobal.set('sent', false)\n\nreturn msg;\n",
+        "func": "//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.fromTG.content;\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-4\",\n    \"messages\": [\n        { \"role\": \"system\", \"content\": global.get('content').INSTRUCTIONS},\n        { \"role\": \"user\", \"content\": content}\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set(`history${msg.fromTG.chatId}`, history);\nglobal.set('sent', false)\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 780,
+        "x": 690,
+        "y": 760,
         "wires": [
             [
-                "239844ac394e7d3d"
+                "11b2638e9536d230"
             ]
         ]
     },
     {
-        "id": "239844ac394e7d3d",
+        "id": "11b2638e9536d230",
         "type": "http request",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
         "name": "ChatGPT",
         "method": "POST",
         "ret": "obj",
@@ -949,34 +937,19 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 700,
-        "y": 780,
+        "x": 840,
+        "y": 760,
         "wires": [
             [
-                "0eaf0ec5f00e4453"
+                "8f9c85e145e4bf38"
             ]
         ]
     },
     {
-        "id": "e4747a5ccfb01809",
-        "type": "telegram sender",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
-        "name": "",
-        "bot": "664f1e7115a34974",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 1090,
-        "y": 780,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0eaf0ec5f00e4453",
+        "id": "8f9c85e145e4bf38",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "d8cfe7b1b3bf43f9",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
         "name": "send to user from chat",
         "func": "const responseChatGPT = msg.payload.choices[0].message.content\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": responseChatGPT });\n    global.set(`history${msg.fromTG.chatId}`, history);\n    return msg;\n}",
         "outputs": 1,
@@ -984,19 +957,19 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 780,
+        "x": 1020,
+        "y": 760,
         "wires": [
             [
-                "e4747a5ccfb01809"
+                "f95e06ae225e6a94"
             ]
         ]
     },
     {
-        "id": "76119660bc029cb1",
+        "id": "c9ef96841114bd54",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "default data",
         "func": "if (global.get('isContentSent') === false) {\nmsg.payload={\n    welcomeMessage: \n`Hello! Welcome to our store.\nWe're excited to help you find the perfect product for your needs.\nHow we can help you?`,\n    insturctions: \n`You are an assistant in an E-commerce store that sells fashion accessories.\n\nCustomers could ask you questions about product information, order status, shipping, and returns.\n\nHere's an example:\n\nQuestion: \"What's the material of the green scarf with flowers on your website?\"\nAnswer: \"The green scarf with flowers on our website is made of 100% silk.\"\n\nQuestion: \"Where's my order?\"\nAnswer: \"To check the status of your order, please log in to your account on our website and go to the 'Orders' section. You should see the status of your order there.\"\n\nQuestion: \"How long does it take to receive my order?\"\nAnswer: \"The delivery time depends on your location and the shipping method you choose at checkout. Please refer to our Shipping and Delivery page on our website for more information.\"\n\nQuestion: \"What's your return policy?\"\nAnswer: \"We offer free returns within 30 days of purchase. Please log in to your account and go to the 'Returns' section to initiate a return.\n`\n}\n\nglobal.set('isContentSent', true)\nreturn msg;\n}",
         "outputs": 1,
@@ -1008,15 +981,15 @@
         "y": 600,
         "wires": [
             [
-                "61822712ccd02b9e"
+                "4f37e869cdf617e0"
             ]
         ]
     },
     {
-        "id": "7df1a8d4db5f3d5d",
+        "id": "1935934b4e85e6d0",
         "type": "delay",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "pauseType": "delay",
         "timeout": "3",
@@ -1034,18 +1007,18 @@
         "y": 600,
         "wires": [
             [
-                "76119660bc029cb1"
+                "c9ef96841114bd54"
             ]
         ],
         "l": false
     },
     {
-        "id": "279304c387ada3b7",
+        "id": "e8932bcdc24b40b4",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "default data",
-        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"bot_name\": '',\n        \"bot_token\": '',\n        \"openai_api\": ''\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
+        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"bot_name\": '',\n        \"bot_token\": '',\n        \"openai_api\": '',\n        \"is_limit\": true,\n        \"limit\": 30\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1055,15 +1028,15 @@
         "y": 520,
         "wires": [
             [
-                "f053f373371e31b2"
+                "305cfab9683c882d"
             ]
         ]
     },
     {
-        "id": "b13158015337220b",
+        "id": "e849e62835a29646",
         "type": "delay",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
+        "z": "9e669e5ed5a2dd65",
+        "g": "17965c4b9f2a83c3",
         "name": "",
         "pauseType": "delay",
         "timeout": "3",
@@ -1081,33 +1054,16 @@
         "y": 520,
         "wires": [
             [
-                "279304c387ada3b7"
+                "e8932bcdc24b40b4"
             ]
         ],
         "l": false
     },
     {
-        "id": "3b936abd32e97b4b",
-        "type": "catch",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
-        "name": "",
-        "scope": [
-            "94ce6eb7b6fc6ca2",
-            "6e9a5a32adfc4155"
-        ],
-        "uncaught": false,
-        "x": 110,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e221b81f0e31d907",
+        "id": "71c998ce734f0f5a",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "c3aa41f4486e51cb",
+        "z": "9e669e5ed5a2dd65",
+        "g": "8a7cfdf064b038c2",
         "name": "to ChatGPT",
         "func": "//set variables\nconst api_key = global.get('process_env').OPENAI_API;\n\nconst content = msg.payload.content;\nlet historyForGPT = global.get(`historyDemo`) || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        ...historyForGPT,\n        { \"role\": \"user\", \"content\": content}\n    ]\n}\n\nglobal.set(`historyDemo`, msg.payload.messages);\n\nreturn msg;\n",
         "outputs": 1,
@@ -1116,18 +1072,18 @@
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 940,
+        "y": 920,
         "wires": [
             [
-                "42099951cb904eee"
+                "c09c22fe123e75df"
             ]
         ]
     },
     {
-        "id": "42099951cb904eee",
+        "id": "c09c22fe123e75df",
         "type": "http request",
-        "z": "0810a50fef13cf49",
-        "g": "c3aa41f4486e51cb",
+        "z": "9e669e5ed5a2dd65",
+        "g": "8a7cfdf064b038c2",
         "name": "ChatGPT",
         "method": "POST",
         "ret": "obj",
@@ -1141,18 +1097,18 @@
         "senderr": false,
         "headers": [],
         "x": 680,
-        "y": 940,
+        "y": 920,
         "wires": [
             [
-                "50206bae63b302e0"
+                "da1f9c67b7e5ebad"
             ]
         ]
     },
     {
-        "id": "50206bae63b302e0",
+        "id": "da1f9c67b7e5ebad",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "c3aa41f4486e51cb",
+        "z": "9e669e5ed5a2dd65",
+        "g": "8a7cfdf064b038c2",
         "name": "send to user from chat",
         "func": "const responseChatGPT = msg.payload.choices[0].message.content;\nconst history = global.get(`historyDemo`) || [];\nhistory.push({ \"role\": \"assistant\", \"content\": responseChatGPT })\nglobal.set(`historyDemo`, history);\n\n\nhistory[0] = {\n    role: 'user',\n    content: '/start'\n}\n\nconst conversation = history.map(e => ({ content: e.content.replace(/\\n/g, '')}));\nmsg.payload = conversation\n\n\n/*\nmsg.payload = history.map(e => {\n    if (e.role == 'user') {\n        return `User: ${e.content}`\n    } else {\n        return `AI: ${e.content}`\n    }\n}).join('\\n\\n')*/\n\n\n//const history = history.concat({\"text\": responseChatGPT });\n\n\nreturn msg;",
         "outputs": 1,
@@ -1161,48 +1117,48 @@
         "finalize": "",
         "libs": [],
         "x": 860,
-        "y": 940,
+        "y": 920,
         "wires": [
             [
-                "fe8cf5698e285ddd"
+                "9b6f914c73aa4ccd"
             ]
         ]
     },
     {
-        "id": "04d5a079f27b1563",
+        "id": "69dde419548f29fd",
         "type": "http in",
-        "z": "0810a50fef13cf49",
-        "g": "c3aa41f4486e51cb",
+        "z": "9e669e5ed5a2dd65",
+        "g": "8a7cfdf064b038c2",
         "name": "",
         "url": "/demo",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 900,
+        "y": 880,
         "wires": [
             [
-                "ecd24978770ec51f"
+                "3cba732b968ed1c9"
             ]
         ]
     },
     {
-        "id": "fe8cf5698e285ddd",
+        "id": "9b6f914c73aa4ccd",
         "type": "http response",
-        "z": "0810a50fef13cf49",
-        "g": "c3aa41f4486e51cb",
+        "z": "9e669e5ed5a2dd65",
+        "g": "8a7cfdf064b038c2",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 1050,
-        "y": 880,
+        "y": 860,
         "wires": []
     },
     {
-        "id": "ecd24978770ec51f",
+        "id": "3cba732b968ed1c9",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "c3aa41f4486e51cb",
+        "z": "9e669e5ed5a2dd65",
+        "g": "8a7cfdf064b038c2",
         "name": "check command",
         "func": "if (msg.payload.content.includes('/start')){\n    return [msg, null]\n}else{\n    return [null, msg]\n}",
         "outputs": 2,
@@ -1211,21 +1167,21 @@
         "finalize": "",
         "libs": [],
         "x": 300,
-        "y": 900,
+        "y": 880,
         "wires": [
             [
-                "98045917b6a2a57f"
+                "76f1ed83e535349c"
             ],
             [
-                "e221b81f0e31d907"
+                "71c998ce734f0f5a"
             ]
         ]
     },
     {
-        "id": "98045917b6a2a57f",
+        "id": "76f1ed83e535349c",
         "type": "function",
-        "z": "0810a50fef13cf49",
-        "g": "c3aa41f4486e51cb",
+        "z": "9e669e5ed5a2dd65",
+        "g": "8a7cfdf064b038c2",
         "name": "/start",
         "func": "msg.payload = [{ content: '/start' }, { content: global.get('content').WELCOME_MSG}]\n\nglobal.set(`historyDemo`, [{ role: 'system', content: `${global.get('content').INSTRUCTIONS}` }, { role: 'assistant', content: `${global.get('content').WELCOME_MSG}`}])\n\nreturn msg;",
         "outputs": 1,
@@ -1234,29 +1190,217 @@
         "finalize": "",
         "libs": [],
         "x": 490,
-        "y": 880,
+        "y": 860,
         "wires": [
             [
-                "fe8cf5698e285ddd"
+                "9b6f914c73aa4ccd"
             ]
         ]
     },
     {
-        "id": "8f0e31516c4db109",
-        "type": "debug",
-        "z": "0810a50fef13cf49",
-        "g": "92b1bb103a4ae997",
-        "name": "env",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 550,
-        "y": 360,
+        "id": "207452c206175db4",
+        "type": "telegram receiver",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 150,
+        "y": 720,
+        "wires": [
+            [
+                "d6d765afce457014"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ab90216c2ae6e11d",
+        "type": "telegram sender",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f95e06ae225e6a94",
+        "type": "telegram sender",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1230,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90d7c105a2800509",
+        "type": "function",
+        "z": "9e669e5ed5a2dd65",
+        "g": "6abd0468fa0eb05f",
+        "name": "check count",
+        "func": "let receivedMessages = global.get(\"receivedMessages\") || [];\nconst limit = global.get('process_env').LIMIT ?? 30\n\nnode.warn(limit);\nfunction checkMessages() {\n    const now = Date.now();\n    receivedMessages = receivedMessages.filter(t => now - t <= 3600000);\n    if(receivedMessages.length <= +limit){\n        receivedMessages.push(now);\n    }\n}\n\ncheckMessages();\nglobal.set('receivedMessages', receivedMessages);\n\nif (receivedMessages.length > +limit) {\n    msg.payload.content = 'Борис каже, що я задорогий, і маю працювати з розумом. Може ще напишіть завтра, а поки, поговоріть з нашими адмінами 🙃 @WaLviv';\n    return [msg, null];\n} else {\n    return [null, msg];\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 760,
+        "wires": [
+            [
+                "ab90216c2ae6e11d"
+            ],
+            [
+                "ad170c2e86c27030"
+            ]
+        ]
+    },
+    {
+        "id": "4da3d1084865862f",
+        "type": "function",
+        "z": "9e669e5ed5a2dd65",
+        "g": "358625d2fca13e88",
+        "name": "get",
+        "func": "const historyKey = global.keys().filter(e=> e.includes('history'))\n\nconst history = historyKey.map(key=> {\n    const value = global.get(key)\n    return {\n        [key.replace('history', '')]: value\n    }\n})\n\nmsg.payload = {\n    success: true,\n    payload: {\n        historyLength: history.length\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1020,
+        "wires": [
+            [
+                "eaff589e72bcdafc"
+            ]
+        ]
+    },
+    {
+        "id": "d6395fb4748d1ebc",
+        "type": "http in",
+        "z": "9e669e5ed5a2dd65",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "url": "/getHistory",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 1020,
+        "wires": [
+            [
+                "4da3d1084865862f"
+            ]
+        ]
+    },
+    {
+        "id": "eaff589e72bcdafc",
+        "type": "http response",
+        "z": "9e669e5ed5a2dd65",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 450,
+        "y": 1020,
         "wires": []
+    },
+    {
+        "id": "3003b7b6b8c27e44",
+        "type": "inject",
+        "z": "9e669e5ed5a2dd65",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1080,
+        "wires": [
+            [
+                "2aecefea8e7b8ef1"
+            ]
+        ]
+    },
+    {
+        "id": "2aecefea8e7b8ef1",
+        "type": "function",
+        "z": "9e669e5ed5a2dd65",
+        "g": "358625d2fca13e88",
+        "name": "save histrory",
+        "func": "const historyKey = global.keys().filter(e=> e.includes('history'))\n\nconst history = historyKey.map(key=> {\n    const value = global.get(key)\n    return {\n        [key.replace('history', '')]: value\n    }\n})\n\nmsg.payload = history\nmsg.filename = '/data/history.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1080,
+        "wires": [
+            [
+                "e6590abc5860c593"
+            ]
+        ]
+    },
+    {
+        "id": "6e2ed4604324edd6",
+        "type": "file",
+        "z": "9e669e5ed5a2dd65",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 620,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6590abc5860c593",
+        "type": "json",
+        "z": "9e669e5ed5a2dd65",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 470,
+        "y": 1080,
+        "wires": [
+            [
+                "6e2ed4604324edd6"
+            ]
+        ]
     }
 ]
